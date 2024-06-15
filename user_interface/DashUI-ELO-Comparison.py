@@ -18,96 +18,40 @@ debugging, raise an error and call that object with it
 Ex: raise ValueError(data)
 Otherwise dash will only error on what the callback returns, or raise an error with no context of what part of the
 function caused it (dash only says what callback triggered the error, and what the error was)
-
-Functionality ideas:
-- Could write "helper" functions for callbacks to increase readability of callbacks
-- Maybe LLM output comparison with ground truths would work better in a tab
--- First goal though is getting the information and tables created, then they can be implemented wherever is ideal
-
-Functionality to be added:
-- Ability to read in PDF files and convert them to txt, and process them that way
-- Undo button
-- Ability to manually compare LLM output to ground truth labels and mark them as correct or incorrect
--- Setup done, functionality needs to be created
-- Adding new metrics (Spencer's) to the metric table
-- Live updating of metrics of LLMs
-
-Functionality to be updated:
-- (Not Required) Being able to choose the file name for the download
-
-Unexpected (or frustrating) Behavior:
-- Clicking anywhere on the same "y" as the upload button opens the file menu
-- After saving a json, the input sentences are removed and the program is basically reset
--- However, even though it is reset, you cannot upload the same file consecutively.
--- You CAN upload 1 paper, then upload a second paper, and they will combine in the storage.
---- This problem likely occurs based on how dash is handling uploads, and may not be fixable. 
---- Also, this issue may not be relevant as why would you upload the same thing multiple times consecutively.
---- This issue is probably due to the filename not changing within the app, thus not invoking the callback.
-
-- This might just frustrate me:
--- The LLM comparison tab is slower than the data labeling tab due to chaining, meaning data labeling has to update
--- THEN LLM comparison can update. There has to be a faster way to do this
--- Most noticeable when using "Back" and "Next" on the LLM comparison page as the chaining here is:
--- Button click -> callback that does said operation to original button -> next_sentence triggers and updates sentence
--- -> sentence2 (LLM text) gets updated
---- Uses 2 chains to simply change the sentence..although the chain callbacks aren't 'slow' by python standards,
---- it might be slower than adding the new objects to other functions
--- Things I've tried:
---- Reusing the same buttons by initializing them outside the app creation
--- Things that might work:
---- As LLM comparison doesn't need to update the labeled data upon sentence switch, it could take the inputs of
---- next_sentence and do the operation itself, but I'm not sure if this is faster
---- OR just add the new objects to the original functions as additional outputs
-
-Errors in Functionality:
-
-- Discarding sentences is not good with LLM comparison currently
--- LLM outputs DO NOT update when sentences are discarded.
-- On a related note, modifying and adding sentences WILL ALSO BREAK LLM COMPARISON
-
-- Weird error where next/back count increases by an additional 1 every live update from dash
--- There should be no live update for users as this occurs when the code or css is edited
--- A fix could be to put the JS code into its own asset file, and maybe it won't dupe the event reader
-- UI is best on and designed for a 1920x1080 monitor, and needs a way to scale to other sizes
-
-Phasing out certain storages:
-- input-sentences is on its way out
-
 """
 
 #### LABELED DATA LOAD ####
-maryam_labels = json.load(open("assets/Maryam_annotation.json", "r"))
-spencer_labels = json.load(open("assets/Spencer_update_annotation.json", "r"))
-kuldeep_labels = json.load(open("assets/Kuldeep_annotation.json", "r"))
-riley_labels = json.load(open("assets/Riley_annotation.json", "r"))
-nate_labels = json.load(open("assets/Nate_annotation.json", "r"))
-ashlin_labels = json.load(open("assets/Ashlin_annotation.json", "r"))
-aadarsh_labels = json.load(open("assets/Aadarsh_annotation.json", "r"))
+labeler1_labels = json.load(open("assets/labeler1_annotation.json", "r"))
+labeler2_labels = json.load(open("assets/labeler2_annotation.json", "r"))
+labeler3_labels = json.load(open("assets/labeler3_annotation.json", "r"))
+labeler4_labels = json.load(open("assets/labeler4_annotation.json", "r"))
+labeler5_labels = json.load(open("assets/labeler5_annotation.json", "r"))
+labeler6_labels = json.load(open("assets/labeler6_annotation.json", "r"))
+labeler7_labels = json.load(open("assets/labeler7_annotation.json", "r"))
 
 llama2 = json.load(open("assets/llama2.json"))
 llama3 = json.load(open("assets/llama3.json"))
 mistral = json.load(open("assets/mistral.json"))
-
-splits = json.load(open("assets/Splits.json", "r"))
-
-
 ############################
 #### FILE PROCESSING #######
-#labelers = {'Maryam', 'Riley', 'Nate', 'Kuldeep', 'Spencer'}
 labeler_to_data = {
-    'Maryam': maryam_labels,
-    'Riley': riley_labels,
-    'Kuldeep': kuldeep_labels,
-    'Nate': nate_labels,
-    'Spencer': spencer_labels,
-    'Ashlin': ashlin_labels,
-    'Aadarsh': aadarsh_labels,
+    'labeler1': labeler1_labels,
+    'labeler2': labeler2_labels,
+    'labeler3': labeler3_labels,
+    'labeler4': labeler4_labels,
+    'labeler5': labeler5_labels,
+    'labeler6': labeler6_labels,
+    'labeler7': labeler7_labels,
     'llama2': llama2,
     'llama3': llama3,
     'mistral': mistral
 }
 
-json_files = [maryam_labels,spencer_labels,kuldeep_labels,nate_labels,ashlin_labels,aadarsh_labels,riley_labels, llama2, llama3, mistral]
+
+splits = json.load(open("assets/Splits.json", "r"))
+
+
+json_files = [labeler1_labels,labeler2_labels,labeler3_labels,labeler4_labels,labeler5_labels, labeler6_labels, labeler7_labels]
 
 
 def remove_labeler_entries(data, labeler):
@@ -115,8 +59,6 @@ def remove_labeler_entries(data, labeler):
     filtered_data = {}
     # Create a list to store the texts in order
     texts_in_order = []
-    #raise ValueError(data)
-    #raise ValueError(data)
     # Iterate over the items in the original dictionary
     for key, value in data[labeler].items():
         filtered_data[key] = value
