@@ -1,0 +1,412 @@
+[
+  {
+    "text": "It is expected that both ecological and social compensation measures improve the overall acceptance of a local infrastructure, thus anchoring the latter within the surrounding community.",
+    "causal relations": [
+      {
+        "src": "ecological and social compensation measures",
+        "tgt": "acceptance of a local infrastructure",
+        "direction": "Increase"
+      },
+      {
+        "src": "overall acceptance of a local infrastructure",
+        "tgt": "anchoring the latter within the surrounding community",
+        "direction": "Increase"
+      }
+    ],
+    "meta_data": {
+      "title": "Title",
+      "authors": "Author(s)",
+      "year": "Year",
+      "labeler": "Spencer"
+    }
+  },
+  {
+    "text": "The prompt acceleration of food aid pledges and deliveries once the media story on the famine broke, even though the worst of the crisis was over by then, and the poorer response to non-food emergency needs, which received less press attention, lends weight to another familiar hypothesis: that one of these non-humanitarian criteria is media pressure.",
+    "causal relations": [
+      {
+        "src": "media story",
+        "tgt": "prompt acceleration of food aid pledges and deliveries",
+        "direction": "Increase"
+      }
+    ],
+    "meta_data": {
+      "title": "Title",
+      "authors": "Author(s)",
+      "year": "Year",
+      "labeler": "Spencer"
+    }
+  },
+  {
+    "text": "Some men were hesitant to assist with household chores because they believed it would create an expectation of ongoing involvement with chores after pregnancy.",
+    "causal relations": [
+      {
+        "src": " expectation of ongoing involvement with chores after pregnancy",
+        "tgt": "assist with household chores ",
+        "direction": "Decrease"
+      }
+    ],
+    "meta_data": {
+      "title": "Title",
+      "authors": "Author(s)",
+      "year": "Year",
+      "labeler": "Spencer"
+    }
+  },
+  {
+    "text": "Pastoralists in the arid and semi-arid regions of Mali continue to face increasing risk due to low levels of rainfall.",
+    "causal relations": [
+      {
+        "src": "low levels of rainfall",
+        "tgt": "Pastoralists in the arid and semi-arid regions of Mali",
+        "direction": "Decrease"
+      }
+    ],
+    "meta_data": {
+      "title": "Title",
+      "authors": "Author(s)",
+      "year": "Year",
+      "labeler": "Spencer"
+    }
+  },
+  {
+    "text": "The recent investment in improving existing roads that connect administrative centres to regional capitals, combined with the advance in use of mobile phone communications, have facilitated the development of new and efficient cereal trade routes and reduced marketing margins.",
+    "causal relations": [
+      {
+        "src": "investment in improving existing roads that connect administrative centres to regional capitals",
+        "tgt": "development of new and efficient cereal trade routes and reduced marketing margins",
+        "direction": "Increase"
+      },
+      {
+        "src": "the advance in use of mobile phone communications",
+        "tgt": "development of new and efficient cereal trade routes and reduced marketing margins",
+        "direction": "Increase"
+      }
+    ],
+    "meta_data": {
+      "title": "Title",
+      "authors": "Author(s)",
+      "year": "Year",
+      "labeler": "Spencer"
+    }
+  },
+  {
+    "text": "Wind turbine foundations may act as artificial reefs, which could increase both the number of shellfish and the animals that feed on them, including other fish and marine mammals.",
+    "causal relations": [
+      {
+        "src": "Wind turbine foundations",
+        "tgt": "number of shellfish and the animals that feed on them",
+        "direction": "Increase"
+      },
+      {
+        "src": "Wind turbine foundations",
+        "tgt": " fish and marine mammals",
+        "direction": "Increase"
+      }
+    ],
+    "meta_data": {
+      "title": "Title",
+      "authors": "Author(s)",
+      "year": "Year",
+      "labeler": "Spencer"
+    }
+  },
+  {
+    "text": "However, wars have been waged to reduce demographic pressures arising from the scarcity of arable land, the clearest example being the move to acquire Lebensraum (living space) that motivated Nazi Germany aggression toward Poland and Eastern Europe.",
+    "causal relations": [
+      {
+        "src": "wars",
+        "tgt": "demographic pressures arising from the scarcity of arable land",
+        "direction": "Decrease"
+      }
+    ],
+    "meta_data": {
+      "title": "Title",
+      "authors": "Author(s)",
+      "year": "Year",
+      "labeler": "Spencer"
+    }
+  },
+  {
+    "text": "The direct and indirect effects from offshore wind farm development have been less well documented, but they include similar risks to bird and bat collisions [16,17]; disruption of marine mammal corridors [15] as well as harm to marine mammals, fish, and sea turtles from construction of bottom-mounted turbine towers [18]; the potential for scour and sediment resuspension around the foundations of bottom-mounted wind turbines [19]; and some evidence of displacement or barrier effects because of the presence of large offshore wind farms.",
+    "causal relations": [
+      {
+        "src": "offshore wind farm development",
+        "tgt": "marine mammal corridors",
+        "direction": "Decrease"
+      },
+      {
+        "src": "offshore wind farm development",
+        "tgt": "risks to bird and bat collisions",
+        "direction": "Increase"
+      },
+      {
+        "src": "construction of bottom-mounted turbine towers",
+        "tgt": "harm to marine mammals, fish, and sea turtles",
+        "direction": "Increase"
+      },
+      {
+        "src": "presence of large offshore wind farms",
+        "tgt": "displacement or barrier effects",
+        "direction": "Increase"
+      }
+    ],
+    "meta_data": {
+      "title": "Title",
+      "authors": "Author(s)",
+      "year": "Year",
+      "labeler": "Spencer"
+    }
+  },
+  {
+    "text": "The study shows that the cultivation of crops, a critical aspect of food security, is gravely under threat given low cultivation of crops as a result of BH atrocities.",
+    "causal relations": [
+      {
+        "src": "low cultivation of crops",
+        "tgt": "food security",
+        "direction": "Decrease"
+      },
+      {
+        "src": "BH atrocities",
+        "tgt": "low cultivation of crops",
+        "direction": "Increase"
+      }
+    ],
+    "meta_data": {
+      "title": "Title",
+      "authors": "Author(s)",
+      "year": "Year",
+      "labeler": "Spencer"
+    }
+  },
+  {
+    "text": "Various sources attest that elevated mortality stemming from conflict is due more to population displacement, deficiencies of clean water and sanitation, exposure to disease, and public-health failures rather than to direct blows from violence.",
+    "causal relations": [
+      {
+        "src": "conflict",
+        "tgt": "elevated mortality",
+        "direction": "Increase"
+      },
+      {
+        "src": "population displacement",
+        "tgt": "mortality",
+        "direction": "Increase"
+      },
+      {
+        "src": "deficiencies of clean water and sanitation",
+        "tgt": "mortality",
+        "direction": "Increase"
+      },
+      {
+        "src": "exposure to disease",
+        "tgt": "mortality",
+        "direction": "Increase"
+      },
+      {
+        "src": "exposure to disease",
+        "tgt": "public-health failures",
+        "direction": "Increase"
+      }
+    ],
+    "meta_data": {
+      "title": "Title",
+      "authors": "Author(s)",
+      "year": "Year",
+      "labeler": "Spencer"
+    }
+  },
+  {
+    "text": "Civilians may also expand agricultural production due to cuts in a stable food supply.",
+    "causal relations": [
+      {
+        "src": "cuts in a stable food supply",
+        "tgt": "agricultural production",
+        "direction": "Increase"
+      }
+    ],
+    "meta_data": {
+      "title": "Title",
+      "authors": "Author(s)",
+      "year": "Year",
+      "labeler": "Spencer"
+    }
+  },
+  {
+    "text": "The failure of programmes to reintegrate people into production implemented in the 1990s within the framework of the implementation of the 1992 Peace Accords forced many former combatants to resort to criminal and antisocial behaviour. As we have pointed out elsewhere (1996), the failure of these programmes has to do with the fact that in spite of the majority of them targeting farming, the serious structural crisis the agricultural sector was undergoing was underestimated in their design and implementation.",
+    "causal relations": [
+      {
+        "src": "failure of programmes to reintegrate people into production implemented in the 1990s within the framework of the implementation of the 1992 Peace Accords",
+        "tgt": "criminal and antisocial behaviour",
+        "direction": "Increase"
+      },
+      {
+        "src": "serious structural crisis the agricultural sector was undergoing was underestimated",
+        "tgt": " failure of these programmes",
+        "direction": "Increase"
+      }
+    ],
+    "meta_data": {
+      "title": "Title",
+      "authors": "Author(s)",
+      "year": "Year",
+      "labeler": "Spencer"
+    }
+  },
+  {
+    "text": "On the supply side, both Huthi/Saleh forces and the Hadi government and its Saudi-led coalition allies repeatedly have hindered the movement of aid and commercial goods to the population. Huthi/Saleh violations are most egregious in the city of Taiz, where their fighters have enforced a full or partial blockade since 2015, with devastating humanitarian consequences. They routinely interfere with the work of humanitarians, at times demanding the diversion of aid to themselves or denying aid workers access to populations in need, revoking visas or even detaining them. They heavily tax all imports into their areas in part to finance the war effort and also run a black market in fuel, enriching military elites while driving prices up for transport of vital commodities.",
+    "causal relations": [
+      {
+        "src": "Huthi/Saleh forces",
+        "tgt": "movement of aid and commercial goods to the population",
+        "direction": "Decrease"
+      },
+      {
+        "src": "Huthi/Saleh violations",
+        "tgt": "devastating humanitarian consequences",
+        "direction": "Increase"
+      },
+      {
+        "src": "tax all imports",
+        "tgt": "finance the war",
+        "direction": "Increase"
+      }
+    ],
+    "meta_data": {
+      "title": "Title",
+      "authors": "Author(s)",
+      "year": "Year",
+      "labeler": "Spencer"
+    }
+  },
+  {
+    "text": "Increased grievances against the state, when agricultural deficits at the state level result in losses of tax revenues and higher food prices.",
+    "causal relations": [
+      {
+        "src": "grievances against the state",
+        "tgt": "losses of tax revenues",
+        "direction": "Decrease"
+      },
+      {
+        "src": "grievances against the state",
+        "tgt": "higher food prices",
+        "direction": "Increase"
+      }
+    ],
+    "meta_data": {
+      "title": "Title",
+      "authors": "Author(s)",
+      "year": "Year",
+      "labeler": "Spencer"
+    }
+  },
+  {
+    "text": "Borrowing food was observed to be the first step to mitigate the adverse effect of food insecurity at the household level in Yemen.",
+    "causal relations": [
+      {
+        "src": "Borrowing food",
+        "tgt": "mitigate the adverse effect of food insecurity at the household level in Yemen",
+        "direction": "Increase"
+      }
+    ],
+    "meta_data": {
+      "title": "Title",
+      "authors": "Author(s)",
+      "year": "Year",
+      "labeler": "Spencer"
+    }
+  },
+  {
+    "text": "ASHA must tell the woman during pregnancy so that the woman must have that information with her. So, as soon as the child takes birth he/she will be fed with colostrum which will prevent the child from diseases.",
+    "causal relations": [
+      {
+        "src": "fed with colostrum",
+        "tgt": "prevent the child from diseases",
+        "direction": "Increase"
+      }
+    ],
+    "meta_data": {
+      "title": "Title",
+      "authors": "Author(s)",
+      "year": "Year",
+      "labeler": "Spencer"
+    }
+  },
+  {
+    "text": "For me, when I got married and my wife was pregnant, I registered her in general hospital, and also in a traditional Centre. Because my understanding is that, there are medications in the hospital and also another type of medications from the traditional.",
+    "causal relations": [
+      {
+        "src": "medications in the hospital and also another type of medications from the traditional",
+        "tgt": "registered her in general hospital, and also in a traditional Centre",
+        "direction": "Increase"
+      }
+    ],
+    "meta_data": {
+      "title": "Title",
+      "authors": "Author(s)",
+      "year": "Year",
+      "labeler": "Spencer"
+    }
+  },
+  {
+    "text": "Even, we do not want to be uncovered so that our private parts do not be seen.",
+    "causal relations": [
+      {
+        "src": "be uncovered",
+        "tgt": "our private parts do not be seen",
+        "direction": "Decrease"
+      }
+    ],
+    "meta_data": {
+      "title": "Title",
+      "authors": "Author(s)",
+      "year": "Year",
+      "labeler": "Spencer"
+    }
+  },
+  {
+    "text": "The use of contraception was linked vicariously to promiscuity: Promiscuous women were linked to the use of contraception, multiple abortions and disease or infections.",
+    "causal relations": [
+      {
+        "src": "use of contraception",
+        "tgt": "promiscuity",
+        "direction": "Increase"
+      },
+      {
+        "src": "Promiscuous women",
+        "tgt": "use of contraception",
+        "direction": "Increase"
+      },
+      {
+        "src": "Promiscuous women",
+        "tgt": "multiple abortions",
+        "direction": "Increase"
+      },
+      {
+        "src": "Promiscuous women",
+        "tgt": "disease or infections",
+        "direction": "Increase"
+      }
+    ],
+    "meta_data": {
+      "title": "Title",
+      "authors": "Author(s)",
+      "year": "Year",
+      "labeler": "Spencer"
+    }
+  },
+  {
+    "text": "I had vaginal discharge four months ago and I used a traditional medicine it stopped.",
+    "causal relations": [
+      {
+        "src": "traditional medicine",
+        "tgt": "vaginal discharge",
+        "direction": "Decrease"
+      }
+    ],
+    "meta_data": {
+      "title": "Title",
+      "authors": "Author(s)",
+      "year": "Year",
+      "labeler": "Spencer"
+    }
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "text": "It is expected that both ecological and social compensation measures improve the overall acceptance of a local infrastructure, thus anchoring the latter within the surrounding community.",
+    "meta_data": {
+      "labeler": "mistral"
+    },
+    "causal relations": [
+      {
+        "src": "ecological and social compensation measures",
+        "tgt": "overall acceptance of a local infrastructure",
+        "direction": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The prompt acceleration of food aid pledges and deliveries once the media story on the famine broke, even though the worst of the crisis was over by then, and the poorer response to non-food emergency needs, which received less press attention, lends weight to another familiar hypothesis: that one of these non-humanitarian criteria is media pressure.",
+    "meta_data": {
+      "labeler": "mistral"
+    },
+    "causal relations": [
+      {
+        "src": "media story on the famine breaking",
+        "tgt": "food aid pledges and deliveries",
+        "direction": "positive"
+      },
+      {
+        "src": "media story on the famine breaking",
+        "tgt": "poorer response to non-food emergency needs",
+        "direction": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Some men were hesitant to assist with household chores because they believed it would create an expectation of ongoing involvement with chores after pregnancy.",
+    "meta_data": {
+      "labeler": "mistral"
+    },
+    "causal relations": [
+      {
+        "src": "men were hesitant to assist with household chores because they believed it would create an expectation of ongoing involvement with chores after pregnancy",
+        "tgt": "men were hesitant to assist with household chores",
+        "direction": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Pastoralists in the arid and semi-arid regions of Mali continue to face increasing risk due to low levels of rainfall.",
+    "meta_data": {
+      "labeler": "mistral"
+    },
+    "causal relations": [
+      {
+        "src": "low levels of rainfall",
+        "tgt": "risk",
+        "direction": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The recent investment in improving existing roads that connect administrative centres to regional capitals, combined with the advance in use of mobile phone communications, have facilitated the development of new and efficient cereal trade routes and reduced marketing margins.",
+    "meta_data": {
+      "labeler": "mistral"
+    },
+    "causal relations": [
+      {
+        "src": "investment in improving existing roads",
+        "tgt": "development of new and efficient cereal trade routes",
+        "direction": "positive"
+      },
+      {
+        "src": "use of mobile phone communications",
+        "tgt": "marketing margins",
+        "direction": "negative"
+      }
+    ]
+  },
+  {
+    "text": "Wind turbine foundations may act as artificial reefs, which could increase both the number of shellfish and the animals that feed on them, including other fish and marine mammals.",
+    "meta_data": {
+      "labeler": "mistral"
+    },
+    "causal relations": [
+      {
+        "src": "wind turbine foundations",
+        "tgt": "number of shellfish",
+        "direction": "positive"
+      },
+      {
+        "src": "wind turbine foundations",
+        "tgt": "number of fish",
+        "direction": "positive"
+      },
+      {
+        "src": "wind turbine foundations",
+        "tgt": "number of animals",
+        "direction": "positive"
+      },
+      {
+        "src": "wind turbine foundations",
+        "tgt": "number of marine mammals",
+        "direction": "positive"
+      },
+      {
+        "src": "wind turbine foundations",
+        "tgt": "animals that feed on shellfish",
+        "direction": "positive"
+      },
+      {
+        "src": "wind turbine foundations",
+        "tgt": "number of animals that feed on shellfish",
+        "direction": "positive"
+      }
+    ]
+  },
+  {
+    "text": "However, wars have been waged to reduce demographic pressures arising from the scarcity of arable land, the clearest example being the move to acquire Lebensraum (living space) that motivated Nazi Germany aggression toward Poland and Eastern Europe.",
+    "meta_data": {
+      "labeler": "mistral"
+    },
+    "causal relations": [
+      {
+        "src": "scarcity of arable land",
+        "tgt": "wars",
+        "direction": "positive"
+      },
+      {
+        "src": "scarcity of arable land",
+        "tgt": "clearest example being the move to acquire lebensraum",
+        "direction": "positive"
+      },
+      {
+        "src": "demographic pressures",
+        "tgt": "wars",
+        "direction": "positive"
+      },
+      {
+        "src": "demographic pressures",
+        "tgt": "clearest example being the move to acquire lebensraum",
+        "direction": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The direct and indirect effects from offshore wind farm development have been less well documented, but they include similar risks to bird and bat collisions [16,17]; disruption of marine mammal corridors [15] as well as harm to marine mammals, fish, and sea turtles from construction of bottom-mounted turbine towers [18]; the potential for scour and sediment resuspension around the foundations of bottom-mounted wind turbines [19]; and some evidence of displacement or barrier effects because of the presence of large offshore wind farms.",
+    "meta_data": {
+      "labeler": "mistral"
+    },
+    "causal relations": [
+      {
+        "src": "token, followed by the subject phrase, the object phrase, and the relationship, separated by",
+        "tgt": "and",
+        "direction": "tokens."
+      },
+      {
+        "src": "offshore wind farm development",
+        "tgt": "disruption of marine mammal corridors",
+        "direction": "positive"
+      },
+      {
+        "src": "offshore wind farm development",
+        "tgt": "harm to marine mammals, fish, and sea turtles from construction of bottom-mounted turbine towers",
+        "direction": "positive"
+      },
+      {
+        "src": "offshore wind farm development",
+        "tgt": "direct and indirect effects",
+        "direction": "positive"
+      },
+      {
+        "src": "offshore wind farm development",
+        "tgt": "potential for scour and sediment resuspension around the foundations of bottom-mounted wind turbines",
+        "direction": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The study shows that the cultivation of crops, a critical aspect of food security, is gravely under threat given low cultivation of crops as a result of BH atrocities.",
+    "meta_data": {
+      "labeler": "mistral"
+    },
+    "causal relations": [
+      {
+        "src": "bh atrocities",
+        "tgt": "cultivation of crops",
+        "direction": "negative"
+      }
+    ]
+  },
+  {
+    "text": "Various sources attest that elevated mortality stemming from conflict is due more to population displacement, deficiencies of clean water and sanitation, exposure to disease, and public-health failures rather than to direct blows from violence.",
+    "meta_data": {
+      "labeler": "mistral"
+    },
+    "causal relations": [
+      {
+        "src": "population displacement",
+        "tgt": "public-health failures",
+        "direction": "positive"
+      },
+      {
+        "src": "exposure to disease",
+        "tgt": "mortality",
+        "direction": "positive"
+      },
+      {
+        "src": "population displacement",
+        "tgt": "deficiencies of clean water and sanitation",
+        "direction": "positive"
+      },
+      {
+        "src": "displacement",
+        "tgt": "mortality",
+        "direction": "positive"
+      },
+      {
+        "src": "deficiencies of clean water and sanitation",
+        "tgt": "mortality",
+        "direction": "positive"
+      },
+      {
+        "src": "public-health failures",
+        "tgt": "mortality",
+        "direction": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Civilians may also expand agricultural production due to cuts in a stable food supply.",
+    "meta_data": {
+      "labeler": "mistral"
+    },
+    "causal relations": [
+      {
+        "src": "cuts in a stable food supply",
+        "tgt": "expansion of agricultural production",
+        "direction": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The failure of programmes to reintegrate people into production implemented in the 1990s within the framework of the implementation of the 1992 Peace Accords forced many former combatants to resort to criminal and antisocial behaviour. As we have pointed out elsewhere (1996), the failure of these programmes has to do with the fact that in spite of the majority of them targeting farming, the serious structural crisis the agricultural sector was undergoing was underestimated in their design and implementation.",
+    "meta_data": {
+      "labeler": "mistral"
+    },
+    "causal relations": [
+      {
+        "src": "failure of programmes to reintegrate people into production",
+        "tgt": "criminal and antisocial behaviour",
+        "direction": "positive"
+      }
+    ]
+  },
+  {
+    "text": "On the supply side, both Huthi/Saleh forces and the Hadi government and its Saudi-led coalition allies repeatedly have hindered the movement of aid and commercial goods to the population. Huthi/Saleh violations are most egregious in the city of Taiz, where their fighters have enforced a full or partial blockade since 2015, with devastating humanitarian consequences. They routinely interfere with the work of humanitarians, at times demanding the diversion of aid to themselves or denying aid workers access to populations in need, revoking visas or even detaining them. They heavily tax all imports into their areas in part to finance the war effort and also run a black market in fuel, enriching military elites while driving prices up for transport of vital commodities.",
+    "meta_data": {
+      "labeler": "mistral"
+    },
+    "causal relations": [
+      {
+        "src": "huthi/saleh violations",
+        "tgt": "humanitarian consequences",
+        "direction": "positive"
+      },
+      {
+        "src": "huthi/saleh",
+        "tgt": "tax all imports",
+        "direction": "positive"
+      },
+      {
+        "src": "huthi/saleh forces",
+        "tgt": "movement of aid and commercial goods to the population",
+        "direction": "negative"
+      },
+      {
+        "src": "huthi/saleh",
+        "tgt": "movement of aid and commercial goods to the population",
+        "direction": "negative"
+      },
+      {
+        "src": "huthi/saleh",
+        "tgt": "fuel",
+        "direction": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Increased grievances against the state, when agricultural deficits at the state level result in losses of tax revenues and higher food prices.",
+    "meta_data": {
+      "labeler": "mistral"
+    },
+    "causal relations": [
+      {
+        "src": "grievances against the state",
+        "tgt": "higher food prices",
+        "direction": "positive"
+      },
+      {
+        "src": "agricultural deficits at the state level",
+        "tgt": "higher food prices",
+        "direction": "positive"
+      },
+      {
+        "src": "grievances against the state",
+        "tgt": "losses of tax revenues",
+        "direction": "positive"
+      },
+      {
+        "src": "agricultural deficits at the state level",
+        "tgt": "losses of tax revenues",
+        "direction": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Borrowing food was observed to be the first step to mitigate the adverse effect of food insecurity at the household level in Yemen.",
+    "meta_data": {
+      "labeler": "mistral"
+    },
+    "causal relations": [
+      {
+        "src": "food insecurity",
+        "tgt": "borrowing food",
+        "direction": "positive"
+      }
+    ]
+  },
+  {
+    "text": "ASHA must tell the woman during pregnancy so that the woman must have that information with her. So, as soon as the child takes birth he/she will be fed with colostrum which will prevent the child from diseases.",
+    "meta_data": {
+      "labeler": "mistral"
+    },
+    "causal relations": [
+      {
+        "src": "woman having information",
+        "tgt": "child not having diseases",
+        "direction": "positive"
+      },
+      {
+        "src": "woman having information",
+        "tgt": "child taking birth and being fed with colostrum",
+        "direction": "positive"
+      }
+    ]
+  },
+  {
+    "text": "For me, when I got married and my wife was pregnant, I registered her in general hospital, and also in a traditional Centre. Because my understanding is that, there are medications in the hospital and also another type of medications from the traditional.",
+    "meta_data": {
+      "labeler": "mistral"
+    },
+    "causal relations": [
+      {
+        "src": "pregnancy",
+        "tgt": "registering in traditional centre",
+        "direction": "positive"
+      },
+      {
+        "src": "pregnancy",
+        "tgt": "registering in general hospital",
+        "direction": "positive"
+      }
+    ]
+  },
+  {
+    "text": "Even, we do not want to be uncovered so that our private parts do not be seen.",
+    "meta_data": {
+      "labeler": "mistral"
+    },
+    "causal relations": [
+      {
+        "src": "not wanting to be uncovered",
+        "tgt": "private parts not being seen",
+        "direction": "positive"
+      }
+    ]
+  },
+  {
+    "text": "The use of contraception was linked vicariously to promiscuity: Promiscuous women were linked to the use of contraception, multiple abortions and disease or infections.",
+    "meta_data": {
+      "labeler": "mistral"
+    },
+    "causal relations": [
+      {
+        "src": "use of contraception",
+        "tgt": "multiple abortions",
+        "direction": "positive"
+      },
+      {
+        "src": "promiscuity",
+        "tgt": "multiple abortions",
+        "direction": "positive"
+      },
+      {
+        "src": "promiscuity",
+        "tgt": "use of contraception",
+        "direction": "positive"
+      },
+      {
+        "src": "use of contraception",
+        "tgt": "disease or infections",
+        "direction": "positive"
+      },
+      {
+        "src": "use of contraception",
+        "tgt": "promiscuity",
+        "direction": "positive"
+      }
+    ]
+  },
+  {
+    "text": "I had vaginal discharge four months ago and I used a traditional medicine it stopped.",
+    "meta_data": {
+      "labeler": "mistral"
+    },
+    "causal relations": [
+      {
+        "src": "using traditional medicine",
+        "tgt": "vaginal discharge",
+        "direction": "negative"
+      }
+    ]
+  }
+]
