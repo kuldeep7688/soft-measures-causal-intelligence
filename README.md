@@ -29,8 +29,7 @@ ____
 ## Authors
 ____
 Contributors names and contact info:
-* [Alec Solway](https://github.com/alec-ts) 
-* [Nathan Brugnone](https://github.com/ngbrugnone)
+XXXX
 
 ## Version History
 ____
