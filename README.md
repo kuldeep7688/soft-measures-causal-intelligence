@@ -35,17 +35,3 @@ XXXX
 ____
 * 0.1
     * Initial Release
-
-## Resources
-____
-Here is a collection of resources that you might find helpful, interesting, inspiring.
-
-* Andrej Karpathy's excellent videos on language models and building GPT from scratch:
-  * [The spelled-out intro to language modeling: building makemore](https://www.youtube.com/watch?v=PaCmpygFfXo)
-  * [Let's build GPT: from scratch, in code, spelled out.](https://youtu.be/kCc8FmEb1nY?si=9BTDenI-fPg_pb9P)
-
-* Various resources discussing LoRA and quantization for fine-tuning LLMs
-  * [PEFT LoRA Explained in Detail - Fine-Tune your LLM on your local GPU](https://www.youtube.com/watch?v=YVU5wAA6Txo)
-  * [Understanding 4bit Quantization: QLoRA explained (w/ Colab)](https://www.youtube.com/watch?v=TPcXVJ1VSRI)
-  * [Low-rank Adaption of Large Language Models Part 2: Simple Fine-tuning with LoRA](https://www.youtube.com/watch?v=iYr1xZn26R8)
-  * [Low-rank Adaption of Large Language Models: Explaining the Key Concepts Behind LoRA](https://www.youtube.com/watch?v=dA-NhCtrrVE)
