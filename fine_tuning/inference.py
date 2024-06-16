@@ -1,3 +1,4 @@
+import re
 import sys
 import time
 import argparse
@@ -26,6 +27,7 @@ Given the input sentence, identify all the triplets of entities and the correspo
 Input Sentence : {input_sentence} <|eot_id|><|start_header_id|>assistant<|end_header_id|>
 """
 
+TRIPLE_EXTRACTION_REGEX = re.compile(r'<triplet>(.*?)<subj>(.*?)<obj>\s*(positive|negative)\s*')
 
 def get_output_from_model(
         prompt, model, input_sentence, tokenizer,
@@ -73,14 +75,73 @@ def create_df_of_model_outputs(
     df = pd.DataFrame(data[1:], columns=data[0])
     return df
 
+# deprecated
+# def extract_triple(text):
+#     regex_string = r'<triplet>(.+)<subj>(.+)<obj>(.+)'
+#     match = re.search(regex_string, text)
+#     if match:
+#         subj = match.group(1).strip()  # Extracting triplet and extracting subject
+#         obj = match.group(2).strip()      # Extracting obj
+#         rel = match.group(3).strip()     # Extracting relationship
+#
+#         return (subj, rel, obj)
+#     else:
+#         return None
+
+
+def extract_triples(text):
+    matches = re.findall(TRIPLE_EXTRACTION_REGEX, text)
+    triples = set()
+    # print(matches)
+    for match in matches:
+        subj = match[0].strip()  # Extracting subject
+        obj = match[1].strip()   # Extracting object
+        rel = match[2].strip()   # Extracting relationship
+        triples.add((subj, rel, obj))
+    
+    return list(triples) if triples else [None]
+
+
+def get_triples_from_model_output(
+        model_output, input_output_separator='[/INST]'
+):
+    relation_triples_part = model_output.split(input_output_separator)[-1]
+
+    # replacing Causal Relation Triple text from
+    if 'Causal Relation Triplets :' in relation_triples_part:
+        relation_triples_part = relation_triples_part.replace('Causal Relation Triplets :', '')
+    
+    if 'Causal Relation Triplets:' in relation_triples_part:
+        relation_triples_part = model_output.replace('Causal Relation Triplets', '')
+    
+    extracted_triples = []
+    for sentence in relation_triples_part.split('\n'):
+        sentence = sentence.strip()
+        output_triple = extract_triples(sentence)
+        extracted_triples.extend(output_triple)
+
+    extracted_triples_json = []
+    for item in list(set(extracted_triples)):
+        if item:
+            extracted_triples_json.append(
+                {
+                    'src': item[0],
+                    'tgt': item[2],
+                    'direction': item[1]
+                }
+            )
+    return extracted_triples_json
+
 
 if __name__ == "__main__":
+    time_start = time.time()
     parser = argparse.ArgumentParser()
 
     # arguments for inference
     parser.add_argument("--model-name", type=str, default="mistralai/Mistral-7B-Instruct-v0.2", help="large language model name from huggingface")
     parser.add_argument("--saved-model-ckpt-path", required=True, type=str)
     parser.add_argument("--input-sentences-df-csv-file", type=str, required=True)
+    parser.add_argument("--output-df-csv-file", type=str, required=True)
     parser.add_argument("--max-new-tokens", type=int, default=512)
 
     args = parser.parse_args()
@@ -89,9 +150,11 @@ if __name__ == "__main__":
     saved_model_ckpt_path = args.saved_model_ckpt_path
     input_sentences_df_csv_file = args.input_sentences_df_csv_file
     max_new_tokens = args.max_new_tokens
+    output_df_csv_file = args.output_df_csv_file
 
     # loading the base model
     # Reload model in FP16 and merge it with LoRA weights
+    print('Loading the base model...')
     base_model = AutoModelForCausalLM.from_pretrained(
         model_name,
         low_cpu_mem_usage=True,
@@ -101,6 +164,7 @@ if __name__ == "__main__":
     )
 
     # merging with lora weights
+    print('Merging the base model with trained lora weights....')
     model = PeftModel.from_pretrained(
             base_model,
             saved_model_ckpt_path
@@ -108,6 +172,7 @@ if __name__ == "__main__":
     model = model.merge_and_unload()
 
     # loading the tokenizer
+    print('Loading the tokenizer...')
     tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
     tokenizer.pad_token = tokenizer.eos_token
     tokenizer.padding_side = "right"
@@ -121,13 +186,29 @@ if __name__ == "__main__":
         print(e)
         sys.exit(1)
 
-    # making predictions
+    # making predictions and getting outputs from the model
+    print('Making predictions and getting the model output...')
     outputs_df = create_df_of_model_outputs(
         model_name, model, tokenizer, sentences_df.text.to_list(),
         max_new_tokens=max_new_tokens, device="cuda:0" 
     )
 
 
+    # processing the model outputs and getting the triples
+    print('Extracting triples from model outputs...')
+    input_output_separator = '<|eot_id|><|start_header_id|>assistant<|end_header_id|>' if 'Llama-3' in model_name else "[/INST]"
 
+    extracted_triples = []
+    for model_output in outputs_df.model_output.to_list():
+        extracted_triples.append(
+            get_triples_from_model_output(
+                model_output, input_output_separator=input_output_separator
+            )
+        )
 
+    outputs_df['extracted_triples'] = extracted_triples
+    outputs_df.to_csv(output_df_csv_file, index=False)
 
+    time_finish = time.time()
+    print('Finish') 
+    print('Total time taken : {} minutes'.format((time_finish - time_start)/60.0))
