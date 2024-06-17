@@ -7,7 +7,6 @@ from tqdm import tqdm
 import torch
 import transformers
 from transformers import AutoTokenizer
-from fine_tuning.inference import get_triples_from_model_output
 from utils import get_triples_from_zero_shot_model_output
 
 
