@@ -75,15 +75,24 @@ To install and set up this project, please follow these steps:
 
 For detailed installation instructions for the user interface, refer to `user_interface/INSTALL.md`.
 
-
 ### Dependencies
 
 ### Executing program
 
-## Authors
+
+## Contributing
 ____
-Contributors names and contact info:
-XXXX
+Feel free to contact us for cooperation; we will be glad to work together.
+
+
+## License
+____
+
+
+## Authors and Contact Information
+____
+Contact information will be published after the de-anonymization of the repository.
+
 
 ## Version History
 ____
