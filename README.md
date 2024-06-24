@@ -21,37 +21,37 @@ Please note that some components, especially those in the `user_interface` direc
 ### Project Structure
 
 MATCH/
-├── fine-tuning/
-│ ├── finetuning.py
-│ ├── inference.py
-│ ├── mistral_finetune_own_data_tutorial.ipynb
-│ └── utils.py
-│
-├── in_context_learning/
-│ ├── three_shot_prompting.py
-│ ├── utils.py
-│ └── zero_shot_prompting.py
-│
-├── inference/
-│ ├── do_inference.py
-│ ├── inference.py
-│ └── save_inference_to_db.py
-│
-├── similarity_measures/
-│ ├── Measure_Evaluation.ipynb
-│ └── README.md
-│
-├── user_interface/
-│ ├── assets/
-│ ├── DashUI-Data-Labeling.py
-│ ├── DashUI-ELO-Comparison.py
-│ ├── DashUI-ELO-Data-Labeling.py
-│ ├── DashUI-ELO-inter-rater-reliability.py
-│ ├── INSTALL.md
-│ ├── README_data-labeling.md
-│ ├── Split-Creation.py
-│ ├── interagreement splits.py
-│ └── requirements.txt
+├── fine-tuning/  
+│ ├── finetuning.py  
+│ ├── inference.py  
+│ ├── mistral_finetune_own_data_tutorial.ipynb  
+│ └── utils.py  
+│  
+├── in_context_learning/  
+│ ├── three_shot_prompting.py  
+│ ├── utils.py  
+│ └── zero_shot_prompting.py  
+│  
+├── inference/  
+│ ├── do_inference.py  
+│ ├── inference.py  
+│ └── save_inference_to_db.py  
+│  
+├── similarity_measures/  
+│ ├── Measure_Evaluation.ipynb  
+│ └── README.md  
+│  
+├── user_interface/  
+│ ├── assets/  
+│ ├── DashUI-Data-Labeling.py  
+│ ├── DashUI-ELO-Comparison.py  
+│ ├── DashUI-ELO-Data-Labeling.py  
+│ ├── DashUI-ELO-inter-rater-reliability.py  
+│ ├── INSTALL.md  
+│ ├── README_data-labeling.md  
+│ ├── Split-Creation.py  
+│ ├── interagreement splits.py  
+│ └── requirements.txt  
 
 ## Getting Started
 ____
