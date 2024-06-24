@@ -9,7 +9,7 @@ Recent advances in natural language processing (NLP) have enhanced the automated
 
 This study underscores the potential benefits of developing human-aligned evaluation measures and provides a robust methodology for validating graph-based NLP predictions.
 
-### A Note on this Repo
+### A Note on this Repository
 
 This repository contains the code and resources associated with the paper "MATCH: Measure Alignment Through Comparative Human Judgement
 for FCM Extraction". The content is organized into various directories, each serving a specific purpose related to the project's objectives. As the paper is currently under review for the EMNLP conference, the repository remains anonymous until publication.
@@ -51,16 +51,32 @@ MATCH/
 │ ├── INSTALL.md  
 │ ├── README_data-labeling.md  
 │ ├── Split-Creation.py  
-│ ├── interagreement splits.py  
+│ ├── interagreement_splits.py  
 │ └── requirements.txt
 ```
 
 ## Getting Started
 ____
 
-### Dependencies
+### Installation
 
-### Installing
+To install and set up this project, please follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/kuldeep7688/MATCH.git
+   cd MATCH
+   ```
+
+2. **Install the required Python libraries:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+For detailed installation instructions for the user interface, refer to `user_interface/INSTALL.md`.
+
+
+### Dependencies
 
 ### Executing program
 
