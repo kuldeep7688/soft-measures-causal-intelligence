@@ -20,6 +20,7 @@ Please note that some components, especially those in the `user_interface` direc
 
 ### Project Structure
 
+```
 MATCH/
 ├── fine-tuning/  
 │ ├── finetuning.py  
@@ -51,7 +52,8 @@ MATCH/
 │ ├── README_data-labeling.md  
 │ ├── Split-Creation.py  
 │ ├── interagreement splits.py  
-│ └── requirements.txt  
+│ └── requirements.txt
+```
 
 ## Getting Started
 ____
