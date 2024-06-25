@@ -1,4 +1,5 @@
-# MATCH (Measure Alignment Through Comparative Human Judgement) for FCM Extraction
+# MATCH  
+(Measure Alignment Through Comparative Human Judgement) for FCM Extraction
 ---
 
 ## Description  
@@ -8,15 +9,6 @@ Recent advances in natural language processing (NLP) have enhanced the automated
 2. Fine-tuned LLMs are more effective at generating FCMs from text than their foundation model counterparts.
 
 This study underscores the potential benefits of developing human-aligned evaluation measures and provides a robust methodology for validating graph-based NLP predictions.
-
-### A Note on this Repository
-
-This repository contains the code and resources associated with the paper "MATCH: Measure Alignment Through Comparative Human Judgement
-for FCM Extraction". The content is organized into various directories, each serving a specific purpose related to the project's objectives. As the paper is currently under review for the EMNLP conference, the repository remains anonymous until publication.
-
-Upon acceptance and publication of the paper, the repository will be de-anonymized, and further details, including contact information and license, will be updated accordingly. We encourage collaboration and welcome contributions from the community. Feel free to reach out and cooperate with us; we will be glad to work together.
-
-Please note that some components, especially those in the `user_interface` directory, require specific setup and dependencies as outlined in the respective README and INSTALL files. Ensure you follow the provided instructions for a seamless setup and usage experience.
 
 ### Project Structure
 
@@ -55,6 +47,26 @@ MATCH/
 │ └── requirements.txt
 ```
 
+### A Note on this Repository
+
+This repository contains the code and resources associated with the paper "MATCH: Measure Alignment Through Comparative Human Judgement
+for FCM Extraction". The content is organized into various directories, each serving a specific purpose related to the project's objectives. As the paper is currently under review for the EMNLP conference, the repository remains anonymous until publication.
+
+Upon acceptance and publication of the paper, the repository will be de-anonymized, and further details, including contact information and license, will be updated accordingly. We encourage collaboration and welcome contributions from the community. Feel free to reach out and cooperate with us; we will be glad to work together.
+
+Please note that some components, especially those in the `user_interface` directory, require specific setup and dependencies as outlined in the respective README and INSTALL files. Ensure you follow the provided instructions for a seamless setup and usage experience.
+
+### Dependencies
+
+This project requires the following dependencies to run properly:  
+```
+argparse
+torch
+datasets
+transformers
+
+```
+
 ## Getting Started
 ____
 
@@ -75,7 +87,6 @@ To install and set up this project, please follow these steps:
 
 For detailed installation instructions for the user interface, refer to `user_interface/INSTALL.md`.
 
-### Dependencies
 
 ### Executing program
 
