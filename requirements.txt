@@ -1,0 +1,17 @@
+argparse
+torch
+datasets
+transformers
+peft
+trl
+pandas
+tqdm
+numpy
+nltk
+rouge-score
+bleurt
+scipy
+ipywidgets
+matplotlib
+requests
+pymongo
