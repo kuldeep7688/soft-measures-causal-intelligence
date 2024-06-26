@@ -42,7 +42,8 @@ For detailed installation instructions for the user interface, refer to `user_in
 
 ### Executing program
 
-**a. Fine-Tuning**
+#### Fine-Tuning
+---
 
 To run the fine-tuning script, follow these steps:
 
@@ -72,40 +73,47 @@ To run the fine-tuning script, follow these steps:
       - `--metric-for-best-model`: Metric to use to identify the best model
 
 
-4. **Run the inference script**
+3. **Run the inference script**
    ```bash
    python inference.py --model-name <model-name> --saved-model-ckpt-path <saved-model-ckpt-path> --input-sentences-df-csv-file <input-file> --output-df-csv-file <output-file>
    ```
 
-**b. In-Context Learning**
+4. **Refer to the tutorial notebook for detailed examples and usage instructions:**
+   
+   Open and follow the instructions in `mistral_finetune_own_data_tutorial.ipynb`.
+
+#### In-Context Learning
+---
 
 1. **Navigate to the `in_context_learning` directory**
 
 2. **Execute the zero-shot prompting script:**
    ```bash
-   python zero_shot_prompting.py --model-name <model-name> --input-file <input-file> --output-file <output-file>
+   python zero_shot_prompting.py --model-name <model-name> --saved-model-ckpt-path <saved-model-ckpt-path> --input-sentences-df-csv-file <input-file> --output-df-csv-file <output-file>
    ```
 
 3. **Execute the three-shot prompting script:**
    ```bash
-   python three_shot_prompting.py --model-name <model-name> --input-file <input-file> --output-file <output-file>
+   python three_shot_prompting.py --model-name <model-name> --saved-model-ckpt-path <saved-model-ckpt-path> --input-sentences-df-csv-file <input-file> --output-df-csv-file <output-file>
    ```
 
-**c. Inference**
+#### Inference
+---
 
 1. **Navigate to the `inference` directory**
 
 2. **Execute the inference script:**
    ```bash
-   python do_inference.py --model-name <model-name> --input-file <input-file> --output-file <output-file>
+   python do_inference.py
    ```
 
 3. **Save inference results to the database:**
    ```bash
-   python save_inference_to_db.py --db-connection-string <connection-string> --input-file <input-file>
+   python save_inference_to_db.py
    ```
 
-**d. Similarity Measures**
+#### Similarity Measures
+---
 
 1. **Navigate to the `similarity_measures` directory**
 
@@ -116,7 +124,8 @@ To run the fine-tuning script, follow these steps:
    
    Follow the instructions within the notebook to run the evaluations.
 
-**e. User Interface**
+#### User Interface
+---
 
 For detailed installation and usage instructions, refer to `user_interface/INSTALL.md` and `user_interface/README_data-labeling.md`.
 
@@ -130,9 +139,10 @@ For detailed installation and usage instructions, refer to `user_interface/INSTA
 3. **Run the Dash UI for ELO comparison:**
    ```bash
    python DashUI-ELO-Comparison.py
+   ```
 
 
-## Usage
+## Project Information
 ____
 
 ### Contributing
@@ -148,6 +158,6 @@ The licensing details will be updated after the paper's publication and de-anony
 Contact information will be published after the de-anonymization of the repository.
 
 ### Version History
-____
+
 * 0.1
     * Initial Release
