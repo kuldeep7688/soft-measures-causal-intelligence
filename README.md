@@ -79,19 +79,19 @@ To run the fine-tuning script, follow these steps:
 ## Usage
 ____
 
-## Contributing
+### Contributing
 
 Feel free to contact us for cooperation; we will be glad to work together.
 
-## License
+### License
 
 The licensing details will be updated after the paper's publication and de-anonymization of the repository.
 
-## Authors and Contact Information
+### Authors and Contact Information
 
 Contact information will be published after the de-anonymization of the repository.
 
-## Version History
+### Version History
 ____
 * 0.1
     * Initial Release
