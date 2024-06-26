@@ -42,6 +42,8 @@ For detailed installation instructions for the user interface, refer to `user_in
 
 ### Executing program
 
+**a. Fine-Tuning**
+
 To run the fine-tuning script, follow these steps:
 
 1. **Navigate to the `fine-tuning` directory**  
@@ -74,7 +76,61 @@ To run the fine-tuning script, follow these steps:
    ```bash
    python inference.py --model-name <model-name> --saved-model-ckpt-path <saved-model-ckpt-path> --input-sentences-df-csv-file <input-file> --output-df-csv-file <output-file>
    ```
-   Replace `<model-name>`, `<saved-model-ckpt-path>`, `<input-file>`, and `<output-file>` with the appropriate values.
+
+**b. In-Context Learning**
+
+1. **Navigate to the `in_context_learning` directory**
+
+2. **Execute the zero-shot prompting script:**
+   ```bash
+   python zero_shot_prompting.py --model-name <model-name> --input-file <input-file> --output-file <output-file>
+   ```
+
+3. **Execute the three-shot prompting script:**
+   ```bash
+   python three_shot_prompting.py --model-name <model-name> --input-file <input-file> --output-file <output-file>
+   ```
+
+**c. Inference**
+
+1. **Navigate to the `inference` directory**
+
+2. **Execute the inference script:**
+   ```bash
+   python do_inference.py --model-name <model-name> --input-file <input-file> --output-file <output-file>
+   ```
+
+3. **Save inference results to the database:**
+   ```bash
+   python save_inference_to_db.py --db-connection-string <connection-string> --input-file <input-file>
+   ```
+
+**d. Similarity Measures**
+
+1. **Navigate to the `similarity_measures` directory**
+
+2. **Open the Jupyter notebook to evaluate measures:**
+   ```bash
+   jupyter notebook Measure_Evaluation.ipynb
+   ```
+   
+   Follow the instructions within the notebook to run the evaluations.
+
+**e. User Interface**
+
+For detailed installation and usage instructions, refer to `user_interface/INSTALL.md` and `user_interface/README_data-labeling.md`.
+
+1. **Navigate to the `user_interface` directory**
+
+2. **Run the Dash UI for data labeling:**
+   ```bash
+   python DashUI-Data-Labeling.py
+   ```
+
+3. **Run the Dash UI for ELO comparison:**
+   ```bash
+   python DashUI-ELO-Comparison.py
+
 
 ## Usage
 ____
