@@ -50,15 +50,34 @@ To run the fine-tuning script, follow these steps:
    ```bash
    python finetuning.py --model-name <model-name> --dataset-dir <dataset-dir> --output-dir <output-dir>
    ```
-   Replace `<model-name>`, `<dataset-dir>`, and `<output-dir>` with the appropriate values.
+   Replace `<model-name>`, `<dataset-dir>`, and `<output-dir>` with the appropriate values. The script also accepts additional arguments as needed. Below is a list of some arguments you can provide:
+      - `--lora-r`: LoRA rank parameter value
+      - `--lora-alpha`: LoRA alpha parameter value
+      - `--lora-dropout`: LoRA dropout parameter value
+      - `--use-4bit`: Use 4-bit precision in base model loading
+      - `--bnb-4bit-compute-dtype`: Compute dtype for 4-bit base model
+      - `--bnb-4bit-quant-type`: Quantization type (fp4 or nf4)
+      - `--fp16`: Enable fp16 training
+      - `--bf16`: Enable bf16 training
+      - `--num-train-epochs`: Number of training epochs
+      - `--per-device-train-batch-size`: Batch size per GPU for training
+      - `--per-device-eval-batch-size`: Batch size per GPU for evaluation
+      - `--learning-rate`: Initial learning rate (AdamW optimizer)
+      - `--weight-decay`: Weight decay to apply to all layers except bias/layernorm weights
+      - `--optim`: Optimizer to use
+      - `--lr-scheduler-type`: Learning rate scheduler to use
+      - `--evaluation-strategy`: Run evaluation of eval set after every x
+      - `--metric-for-best-model`: Metric to use to identify the best model
 
-3. **Run the inference script**
+
+4. **Run the inference script**
    ```bash
    python inference.py --model-name <model-name> --saved-model-ckpt-path <saved-model-ckpt-path> --input-sentences-df-csv-file <input-file> --output-df-csv-file <output-file>
    ```
    Replace `<model-name>`, `<saved-model-ckpt-path>`, `<input-file>`, and `<output-file>` with the appropriate values.
 
 ## Usage
+____
 
 ## Contributing
 
