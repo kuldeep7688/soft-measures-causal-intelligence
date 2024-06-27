@@ -1,0 +1,1163 @@
+{
+    "0": [
+        "The use of contraception was linked vicariously to promiscuity: Promiscuous women were linked to the use of contraception, multiple abortions and disease or infections.",
+        [
+            "Human2",
+            "Human5"
+        ],
+        19,
+        "Human5"
+    ],
+    "1": [
+        "Various sources attest that elevated mortality stemming from conflict is due more to population displacement, deficiencies of clean water and sanitation, exposure to disease, and public-health failures rather than to direct blows from violence.",
+        [
+            "llama2",
+            "mistral"
+        ],
+        10,
+        "llama2"
+    ],
+    "2": [
+        "Wind turbine foundations may act as artificial reefs, which could increase both the number of shellfish and the animals that feed on them, including other fish and marine mammals.",
+        [
+            "Human6",
+            "Human4"
+        ],
+        6,
+        "Human6"
+    ],
+    "3": [
+        "Civilians may also expand agricultural production due to cuts in a stable food supply.",
+        [
+            "Human7",
+            "Human4"
+        ],
+        11,
+        "Tie"
+    ],
+    "4": [
+        "Civilians may also expand agricultural production due to cuts in a stable food supply.",
+        [
+            "llama2",
+            "Human7"
+        ],
+        11,
+        "Tie"
+    ],
+    "5": [
+        "Borrowing food was observed to be the first step to mitigate the adverse effect of food insecurity at the household level in Yemen.",
+        [
+            "Human1",
+            "Human2"
+        ],
+        15,
+        "Human2"
+    ],
+    "6": [
+        "It is expected that both ecological and social compensation measures improve the overall acceptance of a local infrastructure, thus anchoring the latter within the surrounding community.",
+        [
+            "Human5",
+            "Human2"
+        ],
+        1,
+        "Human2"
+    ],
+    "7": [
+        "The direct and indirect effects from offshore wind farm development have been less well documented, but they include similar risks to bird and bat collisions [16,17]; disruption of marine mammal corridors [15] as well as harm to marine mammals, fish, and sea turtles from construction of bottom-mounted turbine towers [18]; the potential for scour and sediment resuspension around the foundations of bottom-mounted wind turbines [19]; and some evidence of displacement or barrier effects because of the presence of large offshore wind farms.",
+        [
+            "Human2",
+            "Human5"
+        ],
+        8,
+        "Human5"
+    ],
+    "8": [
+        "I had vaginal discharge four months ago and I used a traditional medicine it stopped.",
+        [
+            "llama3",
+            "llama2"
+        ],
+        20,
+        "Tie"
+    ],
+    "9": [
+        "The study shows that the cultivation of crops, a critical aspect of food security, is gravely under threat given low cultivation of crops as a result of BH atrocities.",
+        [
+            "Human4",
+            "Human2"
+        ],
+        9,
+        "Human2"
+    ],
+    "10": [
+        "The prompt acceleration of food aid pledges and deliveries once the media story on the famine broke, even though the worst of the crisis was over by then, and the poorer response to non-food emergency needs, which received less press attention, lends weight to another familiar hypothesis: that one of these non-humanitarian criteria is media pressure.",
+        [
+            "Human6",
+            "mistral"
+        ],
+        2,
+        "Human6"
+    ],
+    "11": [
+        "For me, when I got married and my wife was pregnant, I registered her in general hospital, and also in a traditional Centre. Because my understanding is that, there are medications in the hospital and also another type of medications from the traditional.",
+        [
+            "mistral",
+            "Human2"
+        ],
+        17,
+        "mistral"
+    ],
+    "12": [
+        "Civilians may also expand agricultural production due to cuts in a stable food supply.",
+        [
+            "Human2",
+            "llama2"
+        ],
+        11,
+        "Tie"
+    ],
+    "13": [
+        "Various sources attest that elevated mortality stemming from conflict is due more to population displacement, deficiencies of clean water and sanitation, exposure to disease, and public-health failures rather than to direct blows from violence.",
+        [
+            "Human1",
+            "Human2"
+        ],
+        10,
+        "Human1"
+    ],
+    "14": [
+        "Even, we do not want to be uncovered so that our private parts do not be seen.",
+        [
+            "Human1",
+            "llama3"
+        ],
+        18,
+        "Human1"
+    ],
+    "15": [
+        "The failure of programmes to reintegrate people into production implemented in the 1990s within the framework of the implementation of the 1992 Peace Accords forced many former combatants to resort to criminal and antisocial behaviour. As we have pointed out elsewhere (1996), the failure of these programmes has to do with the fact that in spite of the majority of them targeting farming, the serious structural crisis the agricultural sector was undergoing was underestimated in their design and implementation.",
+        [
+            "Human1",
+            "mistral"
+        ],
+        12,
+        "mistral"
+    ],
+    "16": [
+        "The study shows that the cultivation of crops, a critical aspect of food security, is gravely under threat given low cultivation of crops as a result of BH atrocities.",
+        [
+            "llama2",
+            "Human7"
+        ],
+        9,
+        "Human7"
+    ],
+    "17": [
+        "Wind turbine foundations may act as artificial reefs, which could increase both the number of shellfish and the animals that feed on them, including other fish and marine mammals.",
+        [
+            "Human6",
+            "mistral"
+        ],
+        6,
+        "Human6"
+    ],
+    "18": [
+        "Borrowing food was observed to be the first step to mitigate the adverse effect of food insecurity at the household level in Yemen.",
+        [
+            "Human1",
+            "Human6"
+        ],
+        15,
+        "Human6"
+    ],
+    "19": [
+        "Increased grievances against the state, when agricultural deficits at the state level result in losses of tax revenues and higher food prices.",
+        [
+            "llama2",
+            "Human4"
+        ],
+        14,
+        "Human4"
+    ],
+    "20": [
+        "The use of contraception was linked vicariously to promiscuity: Promiscuous women were linked to the use of contraception, multiple abortions and disease or infections.",
+        [
+            "llama2",
+            "Human5"
+        ],
+        19,
+        "Human5"
+    ],
+    "21": [
+        "The direct and indirect effects from offshore wind farm development have been less well documented, but they include similar risks to bird and bat collisions [16,17]; disruption of marine mammal corridors [15] as well as harm to marine mammals, fish, and sea turtles from construction of bottom-mounted turbine towers [18]; the potential for scour and sediment resuspension around the foundations of bottom-mounted wind turbines [19]; and some evidence of displacement or barrier effects because of the presence of large offshore wind farms.",
+        [
+            "Human5",
+            "Human1"
+        ],
+        8,
+        "Human1"
+    ],
+    "22": [
+        "ASHA must tell the woman during pregnancy so that the woman must have that information with her. So, as soon as the child takes birth he/she will be fed with colostrum which will prevent the child from diseases.",
+        [
+            "llama3",
+            "Human1"
+        ],
+        16,
+        "Human1"
+    ],
+    "23": [
+        "The recent investment in improving existing roads that connect administrative centres to regional capitals, combined with the advance in use of mobile phone communications, have facilitated the development of new and efficient cereal trade routes and reduced marketing margins.",
+        [
+            "Human6",
+            "Human7"
+        ],
+        5,
+        "Human6"
+    ],
+    "24": [
+        "The study shows that the cultivation of crops, a critical aspect of food security, is gravely under threat given low cultivation of crops as a result of BH atrocities.",
+        [
+            "Human4",
+            "Human7"
+        ],
+        9,
+        "Human7"
+    ],
+    "25": [
+        "On the supply side, both Huthi/Saleh forces and the Hadi government and its Saudi-led coalition allies repeatedly have hindered the movement of aid and commercial goods to the population. Huthi/Saleh violations are most egregious in the city of Taiz, where their fighters have enforced a full or partial blockade since 2015, with devastating humanitarian consequences. They routinely interfere with the work of humanitarians, at times demanding the diversion of aid to themselves or denying aid workers access to populations in need, revoking visas or even detaining them. They heavily tax all imports into their areas in part to finance the war effort and also run a black market in fuel, enriching military elites while driving prices up for transport of vital commodities.",
+        [
+            "Human5",
+            "Human1"
+        ],
+        13,
+        "Human5"
+    ],
+    "26": [
+        "The recent investment in improving existing roads that connect administrative centres to regional capitals, combined with the advance in use of mobile phone communications, have facilitated the development of new and efficient cereal trade routes and reduced marketing margins.",
+        [
+            "mistral",
+            "Human5"
+        ],
+        5,
+        "Human5"
+    ],
+    "27": [
+        "The failure of programmes to reintegrate people into production implemented in the 1990s within the framework of the implementation of the 1992 Peace Accords forced many former combatants to resort to criminal and antisocial behaviour. As we have pointed out elsewhere (1996), the failure of these programmes has to do with the fact that in spite of the majority of them targeting farming, the serious structural crisis the agricultural sector was undergoing was underestimated in their design and implementation.",
+        [
+            "mistral",
+            "Human2"
+        ],
+        12,
+        "Tie"
+    ],
+    "28": [
+        "Wind turbine foundations may act as artificial reefs, which could increase both the number of shellfish and the animals that feed on them, including other fish and marine mammals.",
+        [
+            "Human2",
+            "Human5"
+        ],
+        6,
+        "Human5"
+    ],
+    "29": [
+        "Wind turbine foundations may act as artificial reefs, which could increase both the number of shellfish and the animals that feed on them, including other fish and marine mammals.",
+        [
+            "llama2",
+            "Human5"
+        ],
+        6,
+        "Human5"
+    ],
+    "30": [
+        "Pastoralists in the arid and semi-arid regions of Mali continue to face increasing risk due to low levels of rainfall.",
+        [
+            "Human4",
+            "llama3"
+        ],
+        4,
+        "llama3"
+    ],
+    "31": [
+        "Increased grievances against the state, when agricultural deficits at the state level result in losses of tax revenues and higher food prices.",
+        [
+            "Human7",
+            "Human4"
+        ],
+        14,
+        "Human4"
+    ],
+    "32": [
+        "The study shows that the cultivation of crops, a critical aspect of food security, is gravely under threat given low cultivation of crops as a result of BH atrocities.",
+        [
+            "Human4",
+            "Human5"
+        ],
+        9,
+        "Human4"
+    ],
+    "33": [
+        "The failure of programmes to reintegrate people into production implemented in the 1990s within the framework of the implementation of the 1992 Peace Accords forced many former combatants to resort to criminal and antisocial behaviour. As we have pointed out elsewhere (1996), the failure of these programmes has to do with the fact that in spite of the majority of them targeting farming, the serious structural crisis the agricultural sector was undergoing was underestimated in their design and implementation.",
+        [
+            "Human5",
+            "llama3"
+        ],
+        12,
+        "llama3"
+    ],
+    "34": [
+        "Wind turbine foundations may act as artificial reefs, which could increase both the number of shellfish and the animals that feed on them, including other fish and marine mammals.",
+        [
+            "mistral",
+            "Human2"
+        ],
+        6,
+        "Human2"
+    ],
+    "35": [
+        "On the supply side, both Huthi/Saleh forces and the Hadi government and its Saudi-led coalition allies repeatedly have hindered the movement of aid and commercial goods to the population. Huthi/Saleh violations are most egregious in the city of Taiz, where their fighters have enforced a full or partial blockade since 2015, with devastating humanitarian consequences. They routinely interfere with the work of humanitarians, at times demanding the diversion of aid to themselves or denying aid workers access to populations in need, revoking visas or even detaining them. They heavily tax all imports into their areas in part to finance the war effort and also run a black market in fuel, enriching military elites while driving prices up for transport of vital commodities.",
+        [
+            "llama3",
+            "Human6"
+        ],
+        13,
+        "Human6"
+    ],
+    "36": [
+        "ASHA must tell the woman during pregnancy so that the woman must have that information with her. So, as soon as the child takes birth he/she will be fed with colostrum which will prevent the child from diseases.",
+        [
+            "mistral",
+            "Human7"
+        ],
+        16,
+        "Human7"
+    ],
+    "37": [
+        "It is expected that both ecological and social compensation measures improve the overall acceptance of a local infrastructure, thus anchoring the latter within the surrounding community.",
+        [
+            "llama3",
+            "Human4"
+        ],
+        1,
+        "llama3"
+    ],
+    "38": [
+        "However, wars have been waged to reduce demographic pressures arising from the scarcity of arable land, the clearest example being the move to acquire Lebensraum (living space) that motivated Nazi Germany aggression toward Poland and Eastern Europe.",
+        [
+            "Human1",
+            "Human5"
+        ],
+        7,
+        "Tie"
+    ],
+    "39": [
+        "The prompt acceleration of food aid pledges and deliveries once the media story on the famine broke, even though the worst of the crisis was over by then, and the poorer response to non-food emergency needs, which received less press attention, lends weight to another familiar hypothesis: that one of these non-humanitarian criteria is media pressure.",
+        [
+            "Human2",
+            "Human5"
+        ],
+        2,
+        "Human2"
+    ],
+    "40": [
+        "Even, we do not want to be uncovered so that our private parts do not be seen.",
+        [
+            "Human1",
+            "Human7"
+        ],
+        18,
+        "Human1"
+    ],
+    "41": [
+        "Borrowing food was observed to be the first step to mitigate the adverse effect of food insecurity at the household level in Yemen.",
+        [
+            "Human1",
+            "llama2"
+        ],
+        15,
+        "Human1"
+    ],
+    "42": [
+        "For me, when I got married and my wife was pregnant, I registered her in general hospital, and also in a traditional Centre. Because my understanding is that, there are medications in the hospital and also another type of medications from the traditional.",
+        [
+            "Human4",
+            "Human2"
+        ],
+        17,
+        "Human4"
+    ],
+    "43": [
+        "The recent investment in improving existing roads that connect administrative centres to regional capitals, combined with the advance in use of mobile phone communications, have facilitated the development of new and efficient cereal trade routes and reduced marketing margins.",
+        [
+            "mistral",
+            "Human7"
+        ],
+        5,
+        "Human7"
+    ],
+    "44": [
+        "ASHA must tell the woman during pregnancy so that the woman must have that information with her. So, as soon as the child takes birth he/she will be fed with colostrum which will prevent the child from diseases.",
+        [
+            "Human7",
+            "Human4"
+        ],
+        16,
+        "Human7"
+    ],
+    "45": [
+        "It is expected that both ecological and social compensation measures improve the overall acceptance of a local infrastructure, thus anchoring the latter within the surrounding community.",
+        [
+            "mistral",
+            "Human7"
+        ],
+        1,
+        "mistral"
+    ],
+    "46": [
+        "Even, we do not want to be uncovered so that our private parts do not be seen.",
+        [
+            "Human5",
+            "Human4"
+        ],
+        18,
+        "Human5"
+    ],
+    "47": [
+        "I had vaginal discharge four months ago and I used a traditional medicine it stopped.",
+        [
+            "Human1",
+            "Human4"
+        ],
+        20,
+        "Human4"
+    ],
+    "48": [
+        "However, wars have been waged to reduce demographic pressures arising from the scarcity of arable land, the clearest example being the move to acquire Lebensraum (living space) that motivated Nazi Germany aggression toward Poland and Eastern Europe.",
+        [
+            "Human1",
+            "Human4"
+        ],
+        7,
+        "Human4"
+    ],
+    "49": [
+        "Borrowing food was observed to be the first step to mitigate the adverse effect of food insecurity at the household level in Yemen.",
+        [
+            "Human7",
+            "Human5"
+        ],
+        15,
+        "Human5"
+    ],
+    "50": [
+        "Increased grievances against the state, when agricultural deficits at the state level result in losses of tax revenues and higher food prices.",
+        [
+            "Human2",
+            "mistral"
+        ],
+        14,
+        "mistral"
+    ],
+    "51": [
+        "Civilians may also expand agricultural production due to cuts in a stable food supply.",
+        [
+            "llama3",
+            "llama2"
+        ],
+        11,
+        "llama3"
+    ],
+    "52": [
+        "It is expected that both ecological and social compensation measures improve the overall acceptance of a local infrastructure, thus anchoring the latter within the surrounding community.",
+        [
+            "Human4",
+            "Human1"
+        ],
+        1,
+        "Human1"
+    ],
+    "53": [
+        "The recent investment in improving existing roads that connect administrative centres to regional capitals, combined with the advance in use of mobile phone communications, have facilitated the development of new and efficient cereal trade routes and reduced marketing margins.",
+        [
+            "llama3",
+            "Human7"
+        ],
+        5,
+        "Human7"
+    ],
+    "54": [
+        "The recent investment in improving existing roads that connect administrative centres to regional capitals, combined with the advance in use of mobile phone communications, have facilitated the development of new and efficient cereal trade routes and reduced marketing margins.",
+        [
+            "Human2",
+            "Human5"
+        ],
+        5,
+        "Human5"
+    ],
+    "55": [
+        "However, wars have been waged to reduce demographic pressures arising from the scarcity of arable land, the clearest example being the move to acquire Lebensraum (living space) that motivated Nazi Germany aggression toward Poland and Eastern Europe.",
+        [
+            "Human6",
+            "llama2"
+        ],
+        7,
+        "Human6"
+    ],
+    "56": [
+        "The direct and indirect effects from offshore wind farm development have been less well documented, but they include similar risks to bird and bat collisions [16,17]; disruption of marine mammal corridors [15] as well as harm to marine mammals, fish, and sea turtles from construction of bottom-mounted turbine towers [18]; the potential for scour and sediment resuspension around the foundations of bottom-mounted wind turbines [19]; and some evidence of displacement or barrier effects because of the presence of large offshore wind farms.",
+        [
+            "Human5",
+            "Human4"
+        ],
+        8,
+        "Human4"
+    ],
+    "57": [
+        "On the supply side, both Huthi/Saleh forces and the Hadi government and its Saudi-led coalition allies repeatedly have hindered the movement of aid and commercial goods to the population. Huthi/Saleh violations are most egregious in the city of Taiz, where their fighters have enforced a full or partial blockade since 2015, with devastating humanitarian consequences. They routinely interfere with the work of humanitarians, at times demanding the diversion of aid to themselves or denying aid workers access to populations in need, revoking visas or even detaining them. They heavily tax all imports into their areas in part to finance the war effort and also run a black market in fuel, enriching military elites while driving prices up for transport of vital commodities.",
+        [
+            "Human5",
+            "llama3"
+        ],
+        13,
+        "Human5"
+    ],
+    "58": [
+        "The study shows that the cultivation of crops, a critical aspect of food security, is gravely under threat given low cultivation of crops as a result of BH atrocities.",
+        [
+            "Human5",
+            "Human2"
+        ],
+        9,
+        "Human2"
+    ],
+    "59": [
+        "ASHA must tell the woman during pregnancy so that the woman must have that information with her. So, as soon as the child takes birth he/she will be fed with colostrum which will prevent the child from diseases.",
+        [
+            "Human5",
+            "llama3"
+        ],
+        16,
+        "Human5"
+    ],
+    "60": [
+        "Even, we do not want to be uncovered so that our private parts do not be seen.",
+        [
+            "Human4",
+            "Human1"
+        ],
+        18,
+        "Human4"
+    ],
+    "61": [
+        "On the supply side, both Huthi/Saleh forces and the Hadi government and its Saudi-led coalition allies repeatedly have hindered the movement of aid and commercial goods to the population. Huthi/Saleh violations are most egregious in the city of Taiz, where their fighters have enforced a full or partial blockade since 2015, with devastating humanitarian consequences. They routinely interfere with the work of humanitarians, at times demanding the diversion of aid to themselves or denying aid workers access to populations in need, revoking visas or even detaining them. They heavily tax all imports into their areas in part to finance the war effort and also run a black market in fuel, enriching military elites while driving prices up for transport of vital commodities.",
+        [
+            "Human1",
+            "Human2"
+        ],
+        13,
+        "Human2"
+    ],
+    "62": [
+        "Various sources attest that elevated mortality stemming from conflict is due more to population displacement, deficiencies of clean water and sanitation, exposure to disease, and public-health failures rather than to direct blows from violence.",
+        [
+            "Human7",
+            "Human6"
+        ],
+        10,
+        "Human7"
+    ],
+    "63": [
+        "ASHA must tell the woman during pregnancy so that the woman must have that information with her. So, as soon as the child takes birth he/she will be fed with colostrum which will prevent the child from diseases.",
+        [
+            "llama2",
+            "llama3"
+        ],
+        16,
+        "llama3"
+    ],
+    "64": [
+        "Increased grievances against the state, when agricultural deficits at the state level result in losses of tax revenues and higher food prices.",
+        [
+            "Human7",
+            "llama2"
+        ],
+        14,
+        "Human7"
+    ],
+    "65": [
+        "On the supply side, both Huthi/Saleh forces and the Hadi government and its Saudi-led coalition allies repeatedly have hindered the movement of aid and commercial goods to the population. Huthi/Saleh violations are most egregious in the city of Taiz, where their fighters have enforced a full or partial blockade since 2015, with devastating humanitarian consequences. They routinely interfere with the work of humanitarians, at times demanding the diversion of aid to themselves or denying aid workers access to populations in need, revoking visas or even detaining them. They heavily tax all imports into their areas in part to finance the war effort and also run a black market in fuel, enriching military elites while driving prices up for transport of vital commodities.",
+        [
+            "llama2",
+            "Human1"
+        ],
+        13,
+        "llama2"
+    ],
+    "66": [
+        "I had vaginal discharge four months ago and I used a traditional medicine it stopped.",
+        [
+            "Human1",
+            "Human5"
+        ],
+        20,
+        "Human5"
+    ],
+    "67": [
+        "Various sources attest that elevated mortality stemming from conflict is due more to population displacement, deficiencies of clean water and sanitation, exposure to disease, and public-health failures rather than to direct blows from violence.",
+        [
+            "Human4",
+            "Human7"
+        ],
+        10,
+        "Human4"
+    ],
+    "68": [
+        "The recent investment in improving existing roads that connect administrative centres to regional capitals, combined with the advance in use of mobile phone communications, have facilitated the development of new and efficient cereal trade routes and reduced marketing margins.",
+        [
+            "llama2",
+            "mistral"
+        ],
+        5,
+        "mistral"
+    ],
+    "69": [
+        "Borrowing food was observed to be the first step to mitigate the adverse effect of food insecurity at the household level in Yemen.",
+        [
+            "Human5",
+            "Human1"
+        ],
+        15,
+        "Human5"
+    ],
+    "70": [
+        "The prompt acceleration of food aid pledges and deliveries once the media story on the famine broke, even though the worst of the crisis was over by then, and the poorer response to non-food emergency needs, which received less press attention, lends weight to another familiar hypothesis: that one of these non-humanitarian criteria is media pressure.",
+        [
+            "llama2",
+            "Human1"
+        ],
+        2,
+        "llama2"
+    ],
+    "71": [
+        "The failure of programmes to reintegrate people into production implemented in the 1990s within the framework of the implementation of the 1992 Peace Accords forced many former combatants to resort to criminal and antisocial behaviour. As we have pointed out elsewhere (1996), the failure of these programmes has to do with the fact that in spite of the majority of them targeting farming, the serious structural crisis the agricultural sector was undergoing was underestimated in their design and implementation.",
+        [
+            "Human5",
+            "mistral"
+        ],
+        12,
+        "mistral"
+    ],
+    "72": [
+        "ASHA must tell the woman during pregnancy so that the woman must have that information with her. So, as soon as the child takes birth he/she will be fed with colostrum which will prevent the child from diseases.",
+        [
+            "mistral",
+            "Human2"
+        ],
+        16,
+        "Human2"
+    ],
+    "73": [
+        "The direct and indirect effects from offshore wind farm development have been less well documented, but they include similar risks to bird and bat collisions [16,17]; disruption of marine mammal corridors [15] as well as harm to marine mammals, fish, and sea turtles from construction of bottom-mounted turbine towers [18]; the potential for scour and sediment resuspension around the foundations of bottom-mounted wind turbines [19]; and some evidence of displacement or barrier effects because of the presence of large offshore wind farms.",
+        [
+            "llama2",
+            "Human1"
+        ],
+        8,
+        "Human1"
+    ],
+    "74": [
+        "However, wars have been waged to reduce demographic pressures arising from the scarcity of arable land, the clearest example being the move to acquire Lebensraum (living space) that motivated Nazi Germany aggression toward Poland and Eastern Europe.",
+        [
+            "Human4",
+            "llama3"
+        ],
+        7,
+        "Human4"
+    ],
+    "75": [
+        "It is expected that both ecological and social compensation measures improve the overall acceptance of a local infrastructure, thus anchoring the latter within the surrounding community.",
+        [
+            "Human6",
+            "Human1"
+        ],
+        1,
+        "Human6"
+    ],
+    "76": [
+        "The study shows that the cultivation of crops, a critical aspect of food security, is gravely under threat given low cultivation of crops as a result of BH atrocities.",
+        [
+            "Human6",
+            "llama3"
+        ],
+        9,
+        "llama3"
+    ],
+    "77": [
+        "Various sources attest that elevated mortality stemming from conflict is due more to population displacement, deficiencies of clean water and sanitation, exposure to disease, and public-health failures rather than to direct blows from violence.",
+        [
+            "mistral",
+            "Human5"
+        ],
+        10,
+        "Human5"
+    ],
+    "78": [
+        "For me, when I got married and my wife was pregnant, I registered her in general hospital, and also in a traditional Centre. Because my understanding is that, there are medications in the hospital and also another type of medications from the traditional.",
+        [
+            "llama2",
+            "Human4"
+        ],
+        17,
+        "llama2"
+    ],
+    "79": [
+        "Even, we do not want to be uncovered so that our private parts do not be seen.",
+        [
+            "Human5",
+            "Human1"
+        ],
+        18,
+        "Human5"
+    ],
+    "80": [
+        "The study shows that the cultivation of crops, a critical aspect of food security, is gravely under threat given low cultivation of crops as a result of BH atrocities.",
+        [
+            "Human4",
+            "Human6"
+        ],
+        9,
+        "Human4"
+    ],
+    "81": [
+        "Pastoralists in the arid and semi-arid regions of Mali continue to face increasing risk due to low levels of rainfall.",
+        [
+            "Human5",
+            "Human1"
+        ],
+        4,
+        "Human1"
+    ],
+    "82": [
+        "The study shows that the cultivation of crops, a critical aspect of food security, is gravely under threat given low cultivation of crops as a result of BH atrocities.",
+        [
+            "Human4",
+            "llama2"
+        ],
+        9,
+        "llama2"
+    ],
+    "83": [
+        "Even, we do not want to be uncovered so that our private parts do not be seen.",
+        [
+            "mistral",
+            "Human7"
+        ],
+        18,
+        "mistral"
+    ],
+    "84": [
+        "ASHA must tell the woman during pregnancy so that the woman must have that information with her. So, as soon as the child takes birth he/she will be fed with colostrum which will prevent the child from diseases.",
+        [
+            "Human5",
+            "Human1"
+        ],
+        16,
+        "Human1"
+    ],
+    "85": [
+        "On the supply side, both Huthi/Saleh forces and the Hadi government and its Saudi-led coalition allies repeatedly have hindered the movement of aid and commercial goods to the population. Huthi/Saleh violations are most egregious in the city of Taiz, where their fighters have enforced a full or partial blockade since 2015, with devastating humanitarian consequences. They routinely interfere with the work of humanitarians, at times demanding the diversion of aid to themselves or denying aid workers access to populations in need, revoking visas or even detaining them. They heavily tax all imports into their areas in part to finance the war effort and also run a black market in fuel, enriching military elites while driving prices up for transport of vital commodities.",
+        [
+            "Human7",
+            "Human2"
+        ],
+        13,
+        "Human2"
+    ],
+    "86": [
+        "However, wars have been waged to reduce demographic pressures arising from the scarcity of arable land, the clearest example being the move to acquire Lebensraum (living space) that motivated Nazi Germany aggression toward Poland and Eastern Europe.",
+        [
+            "Human5",
+            "Human2"
+        ],
+        7,
+        "Human2"
+    ],
+    "87": [
+        "Borrowing food was observed to be the first step to mitigate the adverse effect of food insecurity at the household level in Yemen.",
+        [
+            "Human1",
+            "Human4"
+        ],
+        15,
+        "Human4"
+    ],
+    "88": [
+        "On the supply side, both Huthi/Saleh forces and the Hadi government and its Saudi-led coalition allies repeatedly have hindered the movement of aid and commercial goods to the population. Huthi/Saleh violations are most egregious in the city of Taiz, where their fighters have enforced a full or partial blockade since 2015, with devastating humanitarian consequences. They routinely interfere with the work of humanitarians, at times demanding the diversion of aid to themselves or denying aid workers access to populations in need, revoking visas or even detaining them. They heavily tax all imports into their areas in part to finance the war effort and also run a black market in fuel, enriching military elites while driving prices up for transport of vital commodities.",
+        [
+            "Human2",
+            "mistral"
+        ],
+        13,
+        "Human2"
+    ],
+    "89": [
+        "Some men were hesitant to assist with household chores because they believed it would create an expectation of ongoing involvement with chores after pregnancy.",
+        [
+            "llama3",
+            "llama2"
+        ],
+        3,
+        "llama2"
+    ],
+    "90": [
+        "Pastoralists in the arid and semi-arid regions of Mali continue to face increasing risk due to low levels of rainfall.",
+        [
+            "Human5",
+            "llama2"
+        ],
+        4,
+        "llama2"
+    ],
+    "91": [
+        "Increased grievances against the state, when agricultural deficits at the state level result in losses of tax revenues and higher food prices.",
+        [
+            "Human4",
+            "Human5"
+        ],
+        14,
+        "Human5"
+    ],
+    "92": [
+        "Some men were hesitant to assist with household chores because they believed it would create an expectation of ongoing involvement with chores after pregnancy.",
+        [
+            "mistral",
+            "llama3"
+        ],
+        3,
+        "Tie"
+    ],
+    "93": [
+        "The use of contraception was linked vicariously to promiscuity: Promiscuous women were linked to the use of contraception, multiple abortions and disease or infections.",
+        [
+            "mistral",
+            "Human1"
+        ],
+        19,
+        "Human1"
+    ],
+    "94": [
+        "However, wars have been waged to reduce demographic pressures arising from the scarcity of arable land, the clearest example being the move to acquire Lebensraum (living space) that motivated Nazi Germany aggression toward Poland and Eastern Europe.",
+        [
+            "Human6",
+            "llama3"
+        ],
+        7,
+        "Human6"
+    ],
+    "95": [
+        "For me, when I got married and my wife was pregnant, I registered her in general hospital, and also in a traditional Centre. Because my understanding is that, there are medications in the hospital and also another type of medications from the traditional.",
+        [
+            "Human1",
+            "Human7"
+        ],
+        17,
+        "Tie"
+    ],
+    "96": [
+        "The failure of programmes to reintegrate people into production implemented in the 1990s within the framework of the implementation of the 1992 Peace Accords forced many former combatants to resort to criminal and antisocial behaviour. As we have pointed out elsewhere (1996), the failure of these programmes has to do with the fact that in spite of the majority of them targeting farming, the serious structural crisis the agricultural sector was undergoing was underestimated in their design and implementation.",
+        [
+            "Human2",
+            "Human7"
+        ],
+        12,
+        "Human2"
+    ],
+    "97": [
+        "On the supply side, both Huthi/Saleh forces and the Hadi government and its Saudi-led coalition allies repeatedly have hindered the movement of aid and commercial goods to the population. Huthi/Saleh violations are most egregious in the city of Taiz, where their fighters have enforced a full or partial blockade since 2015, with devastating humanitarian consequences. They routinely interfere with the work of humanitarians, at times demanding the diversion of aid to themselves or denying aid workers access to populations in need, revoking visas or even detaining them. They heavily tax all imports into their areas in part to finance the war effort and also run a black market in fuel, enriching military elites while driving prices up for transport of vital commodities.",
+        [
+            "Human7",
+            "Human5"
+        ],
+        13,
+        "Human5"
+    ],
+    "98": [
+        "Borrowing food was observed to be the first step to mitigate the adverse effect of food insecurity at the household level in Yemen.",
+        [
+            "llama2",
+            "Human4"
+        ],
+        15,
+        "Human4"
+    ],
+    "99": [
+        "ASHA must tell the woman during pregnancy so that the woman must have that information with her. So, as soon as the child takes birth he/she will be fed with colostrum which will prevent the child from diseases.",
+        [
+            "Human6",
+            "llama3"
+        ],
+        16,
+        "Human6"
+    ],
+    "100": [
+        "The recent investment in improving existing roads that connect administrative centres to regional capitals, combined with the advance in use of mobile phone communications, have facilitated the development of new and efficient cereal trade routes and reduced marketing margins.",
+        [
+            "Human1",
+            "Human5"
+        ],
+        5,
+        "Human1"
+    ],
+    "101": [
+        "Pastoralists in the arid and semi-arid regions of Mali continue to face increasing risk due to low levels of rainfall.",
+        [
+            "Human5",
+            "mistral"
+        ],
+        4,
+        "mistral"
+    ],
+    "102": [
+        "The use of contraception was linked vicariously to promiscuity: Promiscuous women were linked to the use of contraception, multiple abortions and disease or infections.",
+        [
+            "Human4",
+            "llama3"
+        ],
+        19,
+        "Human4"
+    ],
+    "103": [
+        "The prompt acceleration of food aid pledges and deliveries once the media story on the famine broke, even though the worst of the crisis was over by then, and the poorer response to non-food emergency needs, which received less press attention, lends weight to another familiar hypothesis: that one of these non-humanitarian criteria is media pressure.",
+        [
+            "mistral",
+            "Human7"
+        ],
+        2,
+        "Human7"
+    ],
+    "104": [
+        "The direct and indirect effects from offshore wind farm development have been less well documented, but they include similar risks to bird and bat collisions [16,17]; disruption of marine mammal corridors [15] as well as harm to marine mammals, fish, and sea turtles from construction of bottom-mounted turbine towers [18]; the potential for scour and sediment resuspension around the foundations of bottom-mounted wind turbines [19]; and some evidence of displacement or barrier effects because of the presence of large offshore wind farms.",
+        [
+            "Human2",
+            "llama3"
+        ],
+        8,
+        "Human2"
+    ],
+    "105": [
+        "For me, when I got married and my wife was pregnant, I registered her in general hospital, and also in a traditional Centre. Because my understanding is that, there are medications in the hospital and also another type of medications from the traditional.",
+        [
+            "llama3",
+            "Human7"
+        ],
+        17,
+        "llama3"
+    ],
+    "106": [
+        "Pastoralists in the arid and semi-arid regions of Mali continue to face increasing risk due to low levels of rainfall.",
+        [
+            "Human4",
+            "mistral"
+        ],
+        4,
+        "mistral"
+    ],
+    "107": [
+        "Various sources attest that elevated mortality stemming from conflict is due more to population displacement, deficiencies of clean water and sanitation, exposure to disease, and public-health failures rather than to direct blows from violence.",
+        [
+            "Human2",
+            "Human7"
+        ],
+        10,
+        "Human2"
+    ],
+    "108": [
+        "Borrowing food was observed to be the first step to mitigate the adverse effect of food insecurity at the household level in Yemen.",
+        [
+            "Human5",
+            "Human2"
+        ],
+        15,
+        "Tie"
+    ],
+    "109": [
+        "Even, we do not want to be uncovered so that our private parts do not be seen.",
+        [
+            "Human6",
+            "llama3"
+        ],
+        18,
+        "Tie"
+    ],
+    "110": [
+        "The prompt acceleration of food aid pledges and deliveries once the media story on the famine broke, even though the worst of the crisis was over by then, and the poorer response to non-food emergency needs, which received less press attention, lends weight to another familiar hypothesis: that one of these non-humanitarian criteria is media pressure.",
+        [
+            "mistral",
+            "llama2"
+        ],
+        2,
+        "mistral"
+    ],
+    "111": [
+        "The prompt acceleration of food aid pledges and deliveries once the media story on the famine broke, even though the worst of the crisis was over by then, and the poorer response to non-food emergency needs, which received less press attention, lends weight to another familiar hypothesis: that one of these non-humanitarian criteria is media pressure.",
+        [
+            "Human4",
+            "mistral"
+        ],
+        2,
+        "mistral"
+    ],
+    "112": [
+        "Increased grievances against the state, when agricultural deficits at the state level result in losses of tax revenues and higher food prices.",
+        [
+            "Human1",
+            "Human5"
+        ],
+        14,
+        "Human5"
+    ],
+    "113": [
+        "On the supply side, both Huthi/Saleh forces and the Hadi government and its Saudi-led coalition allies repeatedly have hindered the movement of aid and commercial goods to the population. Huthi/Saleh violations are most egregious in the city of Taiz, where their fighters have enforced a full or partial blockade since 2015, with devastating humanitarian consequences. They routinely interfere with the work of humanitarians, at times demanding the diversion of aid to themselves or denying aid workers access to populations in need, revoking visas or even detaining them. They heavily tax all imports into their areas in part to finance the war effort and also run a black market in fuel, enriching military elites while driving prices up for transport of vital commodities.",
+        [
+            "Human4",
+            "Human7"
+        ],
+        13,
+        "Human4"
+    ],
+    "114": [
+        "The use of contraception was linked vicariously to promiscuity: Promiscuous women were linked to the use of contraception, multiple abortions and disease or infections.",
+        [
+            "Human6",
+            "Human2"
+        ],
+        19,
+        "Human6"
+    ],
+    "115": [
+        "Pastoralists in the arid and semi-arid regions of Mali continue to face increasing risk due to low levels of rainfall.",
+        [
+            "Human1",
+            "Human7"
+        ],
+        4,
+        "Tie"
+    ],
+    "116": [
+        "On the supply side, both Huthi/Saleh forces and the Hadi government and its Saudi-led coalition allies repeatedly have hindered the movement of aid and commercial goods to the population. Huthi/Saleh violations are most egregious in the city of Taiz, where their fighters have enforced a full or partial blockade since 2015, with devastating humanitarian consequences. They routinely interfere with the work of humanitarians, at times demanding the diversion of aid to themselves or denying aid workers access to populations in need, revoking visas or even detaining them. They heavily tax all imports into their areas in part to finance the war effort and also run a black market in fuel, enriching military elites while driving prices up for transport of vital commodities.",
+        [
+            "Human6",
+            "llama2"
+        ],
+        13,
+        "Human6"
+    ],
+    "117": [
+        "The direct and indirect effects from offshore wind farm development have been less well documented, but they include similar risks to bird and bat collisions [16,17]; disruption of marine mammal corridors [15] as well as harm to marine mammals, fish, and sea turtles from construction of bottom-mounted turbine towers [18]; the potential for scour and sediment resuspension around the foundations of bottom-mounted wind turbines [19]; and some evidence of displacement or barrier effects because of the presence of large offshore wind farms.",
+        [
+            "llama2",
+            "Human2"
+        ],
+        8,
+        "Human2"
+    ],
+    "118": [
+        "Increased grievances against the state, when agricultural deficits at the state level result in losses of tax revenues and higher food prices.",
+        [
+            "llama3",
+            "Human2"
+        ],
+        14,
+        "llama3"
+    ],
+    "119": [
+        "On the supply side, both Huthi/Saleh forces and the Hadi government and its Saudi-led coalition allies repeatedly have hindered the movement of aid and commercial goods to the population. Huthi/Saleh violations are most egregious in the city of Taiz, where their fighters have enforced a full or partial blockade since 2015, with devastating humanitarian consequences. They routinely interfere with the work of humanitarians, at times demanding the diversion of aid to themselves or denying aid workers access to populations in need, revoking visas or even detaining them. They heavily tax all imports into their areas in part to finance the war effort and also run a black market in fuel, enriching military elites while driving prices up for transport of vital commodities.",
+        [
+            "Human6",
+            "Human1"
+        ],
+        13,
+        "Human1"
+    ],
+    "120": [
+        "Pastoralists in the arid and semi-arid regions of Mali continue to face increasing risk due to low levels of rainfall.",
+        [
+            "Human2",
+            "Human7"
+        ],
+        4,
+        "Human2"
+    ],
+    "121": [
+        "The study shows that the cultivation of crops, a critical aspect of food security, is gravely under threat given low cultivation of crops as a result of BH atrocities.",
+        [
+            "Human1",
+            "llama2"
+        ],
+        9,
+        "llama2"
+    ],
+    "122": [
+        "For me, when I got married and my wife was pregnant, I registered her in general hospital, and also in a traditional Centre. Because my understanding is that, there are medications in the hospital and also another type of medications from the traditional.",
+        [
+            "Human2",
+            "Human5"
+        ],
+        17,
+        "Human2"
+    ],
+    "123": [
+        "Pastoralists in the arid and semi-arid regions of Mali continue to face increasing risk due to low levels of rainfall.",
+        [
+            "mistral",
+            "llama2"
+        ],
+        4,
+        "Tie"
+    ],
+    "124": [
+        "The use of contraception was linked vicariously to promiscuity: Promiscuous women were linked to the use of contraception, multiple abortions and disease or infections.",
+        [
+            "Human7",
+            "Human5"
+        ],
+        19,
+        "Tie"
+    ],
+    "125": [
+        "Pastoralists in the arid and semi-arid regions of Mali continue to face increasing risk due to low levels of rainfall.",
+        [
+            "Human1",
+            "Human4"
+        ],
+        4,
+        "Human4"
+    ],
+    "126": [
+        "For me, when I got married and my wife was pregnant, I registered her in general hospital, and also in a traditional Centre. Because my understanding is that, there are medications in the hospital and also another type of medications from the traditional.",
+        [
+            "llama2",
+            "Human1"
+        ],
+        17,
+        "llama2"
+    ],
+    "127": [
+        "It is expected that both ecological and social compensation measures improve the overall acceptance of a local infrastructure, thus anchoring the latter within the surrounding community.",
+        [
+            "llama2",
+            "Human6"
+        ],
+        1,
+        "Human6"
+    ],
+    "128": [
+        "Civilians may also expand agricultural production due to cuts in a stable food supply.",
+        [
+            "Human5",
+            "Human6"
+        ],
+        11,
+        "Human6"
+    ]
+}
