@@ -141,15 +141,15 @@ To run the fine-tuning script, follow these steps:
 1. **Navigate to the 'elo_comparison' directory**
 
 2. **Open the Jupyter notebook to generate Elo scores for human-LLM or inter-LLM comparisons:**
-   '''bash
+   ```bash
    jupyter notebook elo_ranking_20samples.ipynb
-   '''
+   ```
    
    **OR**
    
-   '''bash
+   ```bash
    jupyter notebook inter-rater_reliability_elo.ipynb
-   '''
+   ```
    
    Follow the instructions within the notebook to run the Elo algorithm.   
 
