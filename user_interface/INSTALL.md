@@ -8,7 +8,7 @@
 
 - dash_selectable
 
-- dash_bootstrap_components
+- dash-bootstrap-components
 
 - striprtf
 
