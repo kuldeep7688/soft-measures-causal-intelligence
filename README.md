@@ -138,7 +138,7 @@ To run the fine-tuning script, follow these steps:
 #### Elo
 ---
 
-1. **Navigate to the 'elo_comparison' directory**
+1. **Navigate to the `elo_comparison` directory**
 
 2. **Open the Jupyter notebook to generate Elo scores for human-LLM or inter-LLM comparisons:**
    ```bash
