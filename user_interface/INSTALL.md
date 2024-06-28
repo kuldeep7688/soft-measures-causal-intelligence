@@ -8,6 +8,10 @@
 
 - dash_selectable
 
+- dash_bootstrap_components
+
+- striprtf
+
 ## Installation
 
 If Python is not installed, get it from here: https://www.python.org/downloads/
