@@ -180,7 +180,7 @@ Feel free to contact us for cooperation; we will be glad to work together.
 
 ### License
 
-The licensing details will be updated after the paper's publication and de-anonymization of the repository.
+[The Creative Commons Attribution License (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
 ### Authors and Contact Information
 
