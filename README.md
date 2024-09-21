@@ -3,20 +3,6 @@
 
 ## Description  
 
-Understanding and modeling collective intelligence is essential for addressing complex social-ecological systems, such as climate change and sustainable resource management. Fuzzy Cognitive Maps (FCMs), which are directed graphs representing causal relationships among concepts, offer a powerful tool for encoding causal mental models. However, extracting high-integrity FCMs from text is challenging due to the high expressiveness and partial correctness inherent in natural language.
-
-This project presents an approach using Large Language Models (LLMs) to automate FCM extraction from text. We introduce novel similarity measures ("soft" measures) that allow for approximate matches rather than requiring exact node matches. These measures help capture and accumulate diverse causal collective intelligence about SES domains.
-
-We evaluate these similarity measures by correlating their outputs with human judgments obtained through the Elo rating system. The contributions of this work are as follows:
-
-1. Assessing fine-tuned LLM-based methods to extract FCMs from text.
-2. Introducing and evaluating edge-based similarity measures for validating FCM quality, addressing the limitations of previous measures.
-3. Initiating an approach for validating graph-based NLP predictions by ranking predictions through pairwise comparative human judgments using Elo and comparing the rankings produced by humans and similarity measures.
-
-This study underscores the potential benefits of developing human-aligned evaluation measures and provides a robust methodology for validating graph-based NLP predictions.
-
-### A Note on this Repository
-
 This repository contains the code and resources associated with the paper "Soft Measures for Extracting Causal Collective Intelligence". The content is organized into various directories, each serving a specific purpose related to the project's objectives.
 
 Please note that some components, especially those in the `user_interface` directory, require specific setup and dependencies as outlined in the respective README and INSTALL files. Ensure you follow the provided instructions for a seamless setup and usage experience.
