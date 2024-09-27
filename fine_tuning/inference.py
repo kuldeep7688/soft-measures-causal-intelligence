@@ -12,7 +12,7 @@ from transformers import (
 from peft import PeftModel
 
 
-# prompt formats 
+# prompt formats
 PROMPT_LLAMA2_MISTRAL = """<s>[INST] Given the input sentence identify all the triples of entities and corresponding causal relationship between them. \
 The entities should be a phrase from the input sentence and relationship should either be 'Positive' or 'Negative'. \
 Every new extracted triplet should start with <triplet> token, followed by subject phrase, object phrase and relationship, separated by <sub> and <obj> tokens.
@@ -27,25 +27,27 @@ Given the input sentence, identify all the triplets of entities and the correspo
 Input Sentence : {input_sentence} <|eot_id|><|start_header_id|>assistant<|end_header_id|>
 """
 
-TRIPLE_EXTRACTION_REGEX = re.compile(r'<triplet>(.*?)<subj>(.*?)<obj>\s*(positive|negative)\s*')
+TRIPLE_EXTRACTION_REGEX = re.compile(
+    r'<triplet>(.*?)<subj>(.*?)<obj>\s*(positive|negative)\s*')
+
 
 def get_output_from_model(
-        prompt, model, input_sentence, tokenizer,
-        device = "cuda:0", max_new_tokens=512,
-        skip_special_tokens=True
+    prompt, model, input_sentence, tokenizer,
+    device="cuda:0", max_new_tokens=512,
+    skip_special_tokens=True
 ):
     prompt = prompt.format(input_sentence=input_sentence)
     inputs = tokenizer(prompt, return_tensors="pt").to(device)
     outputs = model.generate(**inputs, max_new_tokens=max_new_tokens)
     output_from_model = tokenizer.decode(
-            outputs[0], skip_special_tokens=skip_special_tokens
+        outputs[0], skip_special_tokens=skip_special_tokens
     ).strip()
     return prompt, output_from_model
 
 
 def create_df_of_model_outputs(
-        model_name, model, tokenizer, input_sentences,
-        max_new_tokens, device="cuda:0" 
+    model_name, model, tokenizer, input_sentences,
+    max_new_tokens, device="cuda:0"
 ):
     data = [
         ['sentence', 'input_prompt', 'model_output']
@@ -71,7 +73,7 @@ def create_df_of_model_outputs(
             [
                 sentence, input_prompt, output_from_model
             ]
-        ) 
+        )
     df = pd.DataFrame(data[1:], columns=data[0])
     return df
 
@@ -98,7 +100,7 @@ def extract_triples(text):
         obj = match[1].strip()   # Extracting object
         rel = match[2].strip()   # Extracting relationship
         triples.add((subj, rel, obj))
-    
+
     return list(triples) if triples else [None]
 
 
@@ -109,11 +111,13 @@ def get_triples_from_model_output(
 
     # replacing Causal Relation Triple text from
     if 'Causal Relation Triplets :' in relation_triples_part:
-        relation_triples_part = relation_triples_part.replace('Causal Relation Triplets :', '')
-    
+        relation_triples_part = relation_triples_part.replace(
+            'Causal Relation Triplets :', '')
+
     if 'Causal Relation Triplets:' in relation_triples_part:
-        relation_triples_part = model_output.replace('Causal Relation Triplets', '')
-    
+        relation_triples_part = model_output.replace(
+            'Causal Relation Triplets', '')
+
     extracted_triples = []
     for sentence in relation_triples_part.split('\n'):
         sentence = sentence.strip()
@@ -138,9 +142,11 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     # arguments for inference
-    parser.add_argument("--model-name", type=str, default="mistralai/Mistral-7B-Instruct-v0.2", help="large language model name from huggingface")
+    parser.add_argument("--model-name", type=str, default="mistralai/Mistral-7B-Instruct-v0.2",
+                        help="large language model name from huggingface")
     parser.add_argument("--saved-model-ckpt-path", required=True, type=str)
-    parser.add_argument("--input-sentences-df-csv-file", type=str, required=True)
+    parser.add_argument("--input-sentences-df-csv-file",
+                        type=str, required=True)
     parser.add_argument("--output-df-csv-file", type=str, required=True)
     parser.add_argument("--max-new-tokens", type=int, default=512)
 
@@ -166,14 +172,15 @@ if __name__ == "__main__":
     # merging with lora weights
     print('Merging the base model with trained lora weights....')
     model = PeftModel.from_pretrained(
-            base_model,
-            saved_model_ckpt_path
+        base_model,
+        saved_model_ckpt_path
     )
     model = model.merge_and_unload()
 
     # loading the tokenizer
     print('Loading the tokenizer...')
-    tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+    tokenizer = AutoTokenizer.from_pretrained(
+        model_name, trust_remote_code=True)
     tokenizer.pad_token = tokenizer.eos_token
     tokenizer.padding_side = "right"
 
@@ -181,7 +188,8 @@ if __name__ == "__main__":
     sentences_df = pd.read_csv(input_sentences_df_csv_file)
     try:
         if 'text' not in sentences_df.columns:
-            raise KeyError("text column is not in the input sentences df csv file.")
+            raise KeyError(
+                "text column is not in the input sentences df csv file.")
     except KeyError as e:
         print(e)
         sys.exit(1)
@@ -190,9 +198,8 @@ if __name__ == "__main__":
     print('Making predictions and getting the model output...')
     outputs_df = create_df_of_model_outputs(
         model_name, model, tokenizer, sentences_df.text.to_list(),
-        max_new_tokens=max_new_tokens, device="cuda:0" 
+        max_new_tokens=max_new_tokens, device="cuda:0"
     )
-
 
     # processing the model outputs and getting the triples
     print('Extracting triples from model outputs...')
@@ -210,5 +217,6 @@ if __name__ == "__main__":
     outputs_df.to_csv(output_df_csv_file, index=False)
 
     time_finish = time.time()
-    print('Finish') 
-    print('Total time taken : {} minutes'.format((time_finish - time_start)/60.0))
+    print('Finish')
+    print('Total time taken : {} minutes'.format(
+        (time_finish - time_start)/60.0))

@@ -1,23 +1,25 @@
 # Soft Measures for Extracting Causal Collective Intelligence
+
 ---
 
-## Description  
+## Description
 
 This repository contains the code and resources associated with the paper "Soft Measures for Extracting Causal Collective Intelligence". The content is organized into various directories, each serving a specific purpose related to the project's objectives.
 
 Please note that some components, especially those in the `user_interface` directory, require specific setup and dependencies as outlined in the respective README and INSTALL files. Ensure you follow the provided instructions for a seamless setup and usage experience.
 
-
 ## Getting Started
-____
+
+---
 
 ### Installation
 
 To install and set up this project, please follow these steps:
 
 1. **Clone the repository:**
+
    ```bash
-   git clone https://github.com/kuldeep7688/MATCH.git
+   git clone https://github.com/kuldeep7688/soft-measures-causal-intelligence.git
    cd MATCH
    ```
 
@@ -31,51 +33,56 @@ For detailed installation instructions for the user interface, refer to `user_in
 ### Executing program
 
 #### Fine-Tuning
+
 ---
 
 To run the fine-tuning script, follow these steps:
 
-1. **Navigate to the `fine-tuning` directory**  
+1. **Navigate to the `fine-tuning` directory**
 2. **Execute the fine-tuning script:**
-   
+
    ```bash
    python finetuning.py --model-name <model-name> --dataset-dir <dataset-dir> --output-dir <output-dir>
    ```
-   Replace `<model-name>`, `<dataset-dir>`, and `<output-dir>` with the appropriate values. The script also accepts additional arguments as needed. Below is a list of some arguments you can provide:
-      - `--lora-r`: LoRA rank parameter value
-      - `--lora-alpha`: LoRA alpha parameter value
-      - `--lora-dropout`: LoRA dropout parameter value
-      - `--use-4bit`: Use 4-bit precision in base model loading
-      - `--bnb-4bit-compute-dtype`: Compute dtype for 4-bit base model
-      - `--bnb-4bit-quant-type`: Quantization type (fp4 or nf4)
-      - `--fp16`: Enable fp16 training
-      - `--bf16`: Enable bf16 training
-      - `--num-train-epochs`: Number of training epochs
-      - `--per-device-train-batch-size`: Batch size per GPU for training
-      - `--per-device-eval-batch-size`: Batch size per GPU for evaluation
-      - `--learning-rate`: Initial learning rate (AdamW optimizer)
-      - `--weight-decay`: Weight decay to apply to all layers except bias/layernorm weights
-      - `--optim`: Optimizer to use
-      - `--lr-scheduler-type`: Learning rate scheduler to use
-      - `--evaluation-strategy`: Run evaluation of eval set after every x
-      - `--metric-for-best-model`: Metric to use to identify the best model
 
+   Replace `<model-name>`, `<dataset-dir>`, and `<output-dir>` with the appropriate values. The script also accepts additional arguments as needed. Below is a list of some arguments you can provide:
+
+   - `--lora-r`: LoRA rank parameter value
+   - `--lora-alpha`: LoRA alpha parameter value
+   - `--lora-dropout`: LoRA dropout parameter value
+   - `--use-4bit`: Use 4-bit precision in base model loading
+   - `--bnb-4bit-compute-dtype`: Compute dtype for 4-bit base model
+   - `--bnb-4bit-quant-type`: Quantization type (fp4 or nf4)
+   - `--fp16`: Enable fp16 training
+   - `--bf16`: Enable bf16 training
+   - `--num-train-epochs`: Number of training epochs
+   - `--per-device-train-batch-size`: Batch size per GPU for training
+   - `--per-device-eval-batch-size`: Batch size per GPU for evaluation
+   - `--learning-rate`: Initial learning rate (AdamW optimizer)
+   - `--weight-decay`: Weight decay to apply to all layers except bias/layernorm weights
+   - `--optim`: Optimizer to use
+   - `--lr-scheduler-type`: Learning rate scheduler to use
+   - `--evaluation-strategy`: Run evaluation of eval set after every x
+   - `--metric-for-best-model`: Metric to use to identify the best model
 
 3. **Run the inference script**
+
    ```bash
    python inference.py --model-name <model-name> --saved-model-ckpt-path <saved-model-ckpt-path> --input-sentences-df-csv-file <input-file> --output-df-csv-file <output-file>
    ```
 
 4. **Refer to the tutorial notebook for detailed examples and usage instructions:**
-   
+
    Open and follow the instructions in `mistral_finetune_own_data_tutorial.ipynb`.
 
 #### In-Context Learning
+
 ---
 
 1. **Navigate to the `in_context_learning` directory**
 
 2. **Execute the zero-shot prompting script:**
+
    ```bash
    python zero_shot_prompting.py --model-name <model-name> --saved-model-ckpt-path <saved-model-ckpt-path> --input-sentences-df-csv-file <input-file> --output-df-csv-file <output-file>
    ```
@@ -86,14 +93,17 @@ To run the fine-tuning script, follow these steps:
    ```
 
 #### Inference
+
 ---
 
 1. **Navigate to the `inference` directory**
 
 2. **Execute the inference script:**
+
    ```bash
    python do_inference.py
    ```
+
    This script connects to a MongoDB database to fetch data, runs the inference, and saves the results to a JSON file. Ensure that the MongoDB credentials are set in the environment variables (`MONGO_HOST`, `MONGO_PORT`, `MONGO_USER`, `MONGO_PASS`, `MONGO_AUTH`).
 
 3. **Save inference results to the database:**
@@ -110,38 +120,42 @@ To run the fine-tuning script, follow these steps:
 - Inference in `inference` Directory:
   Provides a more comprehensive and flexible inference pipeline, which includes fetching input data from a database, running inference, and saving results to a database. This script can be used independently of the fine-tuning process and is suitable for large-scale inference tasks.
 
-
 #### Similarity Measures
+
 ---
 
 1. **Navigate to the `similarity_measures` directory**
 
 2. **Open the Jupyter notebook to evaluate measures:**
+
    ```bash
    jupyter notebook Measure_Evaluation.ipynb
    ```
-   
+
    Follow the instructions within the notebook to run the evaluations.
 
 #### Elo
+
 ---
 
 1. **Navigate to the `elo_comparison` directory**
 
 2. **Open the Jupyter notebook to generate Elo scores for human-LLM or inter-LLM comparisons:**
+
    ```bash
    jupyter notebook elo_ranking_20samples.ipynb
    ```
-   
+
    **OR**
-   
+
    ```bash
    jupyter notebook inter-rater_reliability_elo.ipynb
    ```
-   
-   Follow the instructions within the notebook to run the Elo algorithm.   
+
+   Follow the instructions within the notebook to run the Elo algorithm.
 
 #### User Interface
+
 ---
 
 For detailed installation and usage instructions, refer to `user_interface/INSTALL.md` and `user_interface/README_data-labeling.md`.
@@ -149,6 +163,7 @@ For detailed installation and usage instructions, refer to `user_interface/INSTA
 1. **Navigate to the `user_interface` directory**
 
 2. **Run the Dash UI for data labeling:**
+
    ```bash
    python DashUI-Data-Labeling.py
    ```
@@ -158,9 +173,9 @@ For detailed installation and usage instructions, refer to `user_interface/INSTA
    python DashUI-ELO-Comparison.py
    ```
 
-
 ## Project Information
-____
+
+---
 
 ### Contributing
 
@@ -176,5 +191,5 @@ Contact information will be published after the de-anonymization of the reposito
 
 ### Version History
 
-* 0.1
-    * Initial Release
+- 0.1
+  - Initial Release
