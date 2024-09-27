@@ -8,6 +8,16 @@ This repository contains the code and resources associated with the paper "Soft 
 
 Please note that some components, especially those in the `user_interface` directory, require specific setup and dependencies as outlined in the respective README and INSTALL files. Ensure you follow the provided instructions for a seamless setup and usage experience.
 
+### Data Directory
+
+The `data` directory contains both raw and processed datasets used for model training, evaluation, and instruction tuning. The contents include:
+
+- **`train_data.csv`, `val_data.csv`, `test_data.csv`**: These CSV files contain raw textual data, primarily consisting of sentences with causal relationships and corresponding sentence IDs.
+  
+- **`instruction_tuning_data/`**: This subdirectory contains processed data for instruction tuning. It includes:
+  - **`train.jsonl`, `val.jsonl`, `test.jsonl`**: Processed data files in JSONL format with markers such as `<subj>`, `<obj>`, `[INST]`, and start/end of sentence tokens.
+  - **`dataset_obj/`**: Contains Hugging Face object representations of the processed JSONL files.
+
 ## Getting Started
 
 ---
