@@ -153,8 +153,6 @@ For detailed installation and usage instructions, refer to `user_interface/INSTA
    python DashUI-ELO-Comparison.py
    ```
 
-## Project Information
-
 ---
 
 ### Contributing
