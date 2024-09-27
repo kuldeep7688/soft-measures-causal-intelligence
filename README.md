@@ -80,10 +80,7 @@ To run the fine-tuning script, follow these steps:
    ```bash
    python inference.py --model-name <model-name> --saved-model-ckpt-path <saved-model-ckpt-path> --input-sentences-df-csv-file <input-file> --output-df-csv-file <output-file>
    ```
-
-4. **Refer to the tutorial notebook for detailed examples and usage instructions:**
-
-   Open and follow the instructions in `mistral_finetune_own_data_tutorial.ipynb`.
+   
 
 #### In-Context Learning
 
@@ -101,34 +98,7 @@ To run the fine-tuning script, follow these steps:
    ```bash
    python three_shot_prompting.py --model-name <model-name> --saved-model-ckpt-path <saved-model-ckpt-path> --input-sentences-df-csv-file <input-file> --output-df-csv-file <output-file>
    ```
-
-#### Inference
-
----
-
-1. **Navigate to the `inference` directory**
-
-2. **Execute the inference script:**
-
-   ```bash
-   python do_inference.py
-   ```
-
-   This script connects to a MongoDB database to fetch data, runs the inference, and saves the results to a JSON file. Ensure that the MongoDB credentials are set in the environment variables (`MONGO_HOST`, `MONGO_PORT`, `MONGO_USER`, `MONGO_PASS`, `MONGO_AUTH`).
-
-3. **Save inference results to the database:**
-   ```bash
-   python save_inference_to_db.py
-   ```
-   This script reads the inference results from a JSON file and saves them to a MongoDB database. Ensure that the MongoDB credentials are set in the environment variables (`MONGO_HOST`, `MONGO_PORT`, `MONGO_USER_RW`, `MONGO_PASS_RW`, `MONGO_AUTH`).
-
-**Note: Differences Between Inference Code in `fine-tuning` and `inference` Directories**
-
-- Inference in `fine-tuning` Directory:
-  Runs inference using the fine-tuned model specifically for evaluating its performance on new data. This script is typically run after the model has been fine-tuned and it's limited to the context of fine-tuning and immediate evaluation.
-
-- Inference in `inference` Directory:
-  Provides a more comprehensive and flexible inference pipeline, which includes fetching input data from a database, running inference, and saving results to a database. This script can be used independently of the fine-tuning process and is suitable for large-scale inference tasks.
+   
 
 #### Similarity Measures
 
@@ -191,15 +161,10 @@ For detailed installation and usage instructions, refer to `user_interface/INSTA
 
 Feel free to contact us for cooperation; we will be glad to work together.
 
-### License
-
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License (CC-BY 4.0)</a>.
-
 ### Authors and Contact Information
 
 Contact information will be published after the de-anonymization of the repository.
 
-### Version History
+### License
 
-- 0.1
-  - Initial Release
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License (CC-BY 4.0)</a>.
