@@ -20,7 +20,7 @@ To install and set up this project, please follow these steps:
 
    ```bash
    git clone https://github.com/kuldeep7688/soft-measures-causal-intelligence.git
-   cd MATCH
+   cd soft-measures-causal-intelligence
    ```
 
 2. **Install the required Python libraries:**
@@ -134,7 +134,7 @@ To run the fine-tuning script, follow these steps:
 
    Follow the instructions within the notebook to run the evaluations.
 
-#### Elo
+#### Elo Rating Algorithm
 
 ---
 
