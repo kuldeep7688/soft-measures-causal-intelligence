@@ -1,0 +1,57 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_size": 1677013,
+  "description": "",
+  "download_checksums": {
+    "/run/media/kuldeepsingh/Work/college_stuff/courses/projects/fisheries_project/data/instruction_tuning_data/train_08_04_2024.jsonl": {
+      "num_bytes": 1283987,
+      "checksum": null
+    },
+    "/run/media/kuldeepsingh/Work/college_stuff/courses/projects/fisheries_project/data/instruction_tuning_data/test_08_04_2024.jsonl": {
+      "num_bytes": 258414,
+      "checksum": null
+    },
+    "/run/media/kuldeepsingh/Work/college_stuff/courses/projects/fisheries_project/data/instruction_tuning_data/val_08_04_2024.jsonl": {
+      "num_bytes": 160035,
+      "checksum": null
+    }
+  },
+  "download_size": 1702436,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 3379449,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 1264957,
+      "num_examples": 1550,
+      "dataset_name": "json"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 254470,
+      "num_examples": 329,
+      "dataset_name": "json"
+    },
+    "val": {
+      "name": "val",
+      "num_bytes": 157586,
+      "num_examples": 205,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
