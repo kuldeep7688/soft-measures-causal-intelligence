@@ -4,7 +4,7 @@
 
 ## Description
 
-This repository contains the code and resources associated with "[Soft Measures for Extracting Causal Collective Intelligence](https://arxiv.org/pdf/2409.18911)," an 2024 EMNLP NLP4Science workshop paper. The content is organized into various directories, each serving a specific purpose related to the project's objectives.
+This repository contains the code and resources associated with "[Soft Measures for Extracting Causal Collective Intelligence](https://arxiv.org/pdf/2409.18911)," a 2024 EMNLP NLP4Science workshop paper. The content is organized into various directories, each serving a specific purpose related to the project's objectives.
 
 Please note that some components, especially those in the `user_interface` directory, require specific setup and dependencies as outlined in the respective README and INSTALL files. Ensure you follow the provided instructions for a seamless setup and usage experience.
 
